@@ -1,5 +1,5 @@
 export const recruitmentFeed = {
-  "updatedAt": "2026-11-23T13:04:44+08:00",
+  "updatedAt": "2026-11-23T15:59:57+08:00",
   "sources": [
     {
       "id": "nj-city-edu",
@@ -8,11 +8,11 @@ export const recruitmentFeed = {
       "kind": "教育部门",
       "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 1,
       "verified": 1,
-      "added": 1,
+      "added": 0,
       "errors": []
     },
     {
@@ -21,13 +21,15 @@ export const recruitmentFeed = {
       "city": "南京",
       "kind": "学校官网",
       "url": "https://www.nsfz.cn/index/articlelists/lists/pid/25/article_cate_id/57.html",
-      "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
+      "status": "failed",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
       "lastSuccess": "2026-11-23T13:04:44+08:00",
-      "discovered": 15,
-      "verified": 15,
+      "discovered": 0,
+      "verified": 0,
       "added": 0,
-      "errors": []
+      "errors": [
+        "<urlopen error timed out>"
+      ]
     },
     {
       "id": "nj-nfls",
@@ -36,11 +38,11 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.nfls.com.cn/164/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 5,
       "verified": 5,
-      "added": 5,
+      "added": 0,
       "errors": []
     },
     {
@@ -50,11 +52,11 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.njyz.net/zszp/jzgzp",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 4,
       "verified": 4,
-      "added": 4,
+      "added": 0,
       "errors": []
     },
     {
@@ -64,10 +66,10 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://rsc.njupt.edu.cn/587/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 14,
-      "verified": 14,
+      "verified": 10,
       "added": 0,
       "errors": []
     },
@@ -78,11 +80,11 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.njou.edu.cn/5809/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 4,
       "verified": 4,
-      "added": 4,
+      "added": 0,
       "errors": []
     },
     {
@@ -92,8 +94,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.niit.edu.cn/11/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 7,
       "verified": 7,
       "added": 0,
@@ -106,10 +108,10 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://rsc.cpu.edu.cn/4821/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 14,
-      "verified": 14,
+      "verified": 10,
       "added": 0,
       "errors": []
     },
@@ -120,11 +122,25 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.jmi.edu.cn/zqzp/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 3,
       "verified": 3,
-      "added": 3,
+      "added": 0,
+      "errors": []
+    },
+    {
+      "id": "nj-nju-faculty-list",
+      "name": "南京大学人才招聘网 · 专任教师岗位列表",
+      "city": "南京",
+      "kind": "学校官网",
+      "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/index.html",
+      "status": "empty",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
+      "discovered": 0,
+      "verified": 0,
+      "added": 0,
       "errors": []
     },
     {
@@ -134,8 +150,8 @@ export const recruitmentFeed = {
       "kind": "高校就业信息",
       "url": "https://yan.sicau.edu.cn/jygz/jyxx.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 9,
       "verified": 8,
       "added": 0,
@@ -147,13 +163,15 @@ export const recruitmentFeed = {
       "city": "",
       "kind": "国企集团招聘",
       "url": "https://www.cdxctz.com/rczphome.aspx?t=69&commpany=%E5%85%A8%E9%83%A8&type=%E6%8B%9B%E8%81%98%E5%85%AC%E5%91%8A",
-      "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
+      "status": "failed",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
       "lastSuccess": "2026-11-23T13:04:44+08:00",
-      "discovered": 10,
-      "verified": 10,
+      "discovered": 0,
+      "verified": 0,
       "added": 0,
-      "errors": []
+      "errors": [
+        "<urlopen error timed out>"
+      ]
     },
     {
       "id": "general-nanjing-palaeontology",
@@ -162,8 +180,8 @@ export const recruitmentFeed = {
       "kind": "科研院所官网",
       "url": "https://nigpas.cas.cn/yjdw/cyyc/zpgg/",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 4,
       "verified": 4,
       "added": 0,
@@ -176,10 +194,10 @@ export const recruitmentFeed = {
       "kind": "科研院所官网",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
-      "discovered": 14,
-      "verified": 14,
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
+      "discovered": 13,
+      "verified": 10,
       "added": 0,
       "errors": []
     },
@@ -190,11 +208,11 @@ export const recruitmentFeed = {
       "kind": "银行官网",
       "url": "https://www.boc.cn/aboutboc/bi4/index.html",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 13,
-      "verified": 13,
-      "added": 1,
+      "verified": 10,
+      "added": 0,
       "errors": []
     },
     {
@@ -204,8 +222,8 @@ export const recruitmentFeed = {
       "kind": "科研院所官网",
       "url": "https://imde.cas.cn/rczp/",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 6,
       "verified": 5,
       "added": 0,
@@ -218,8 +236,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.hankaiedu.com/%E6%95%99%E5%B8%88%E6%8B%9B%E8%81%98/",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 1,
       "verified": 1,
       "added": 0,
@@ -232,24 +250,10 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/20261027/i427499.html",
       "status": "ok",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "lastSuccess": "2026-11-23T13:04:44+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 1,
       "verified": 1,
-      "added": 0,
-      "errors": []
-    },
-    {
-      "id": "nj-nju-faculty-list",
-      "name": "南京大学人才招聘网 · 专任教师岗位列表",
-      "city": "南京",
-      "kind": "学校官网",
-      "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/index.html",
-      "status": "empty",
-      "lastAttempt": "2026-11-23T15:00:14+08:00",
-      "lastSuccess": "2026-11-23T15:00:14+08:00",
-      "discovered": 0,
-      "verified": 0,
       "added": 0,
       "errors": []
     },
@@ -260,11 +264,11 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.nischina.org/join-our-school/careers/vacancies",
       "status": "ok",
-      "lastAttempt": "2026-11-23T15:00:14+08:00",
-      "lastSuccess": "2026-11-23T15:00:14+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 1,
       "verified": 1,
-      "added": 1,
+      "added": 0,
       "errors": []
     },
     {
@@ -274,11 +278,11 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/20261118/i432483.html",
       "status": "ok",
-      "lastAttempt": "2026-11-23T15:00:14+08:00",
-      "lastSuccess": "2026-11-23T15:00:14+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 1,
       "verified": 1,
-      "added": 1,
+      "added": 0,
       "errors": []
     },
     {
@@ -288,11 +292,11 @@ export const recruitmentFeed = {
       "kind": "主管部门",
       "url": "https://jshrss.jiangsu.gov.cn/art/2026/4/20/art_57210_11759874.html",
       "status": "ok",
-      "lastAttempt": "2026-11-23T15:00:14+08:00",
-      "lastSuccess": "2026-11-23T15:00:14+08:00",
+      "lastAttempt": "2026-11-23T15:59:57+08:00",
+      "lastSuccess": "2026-11-23T15:59:57+08:00",
       "discovered": 1,
       "verified": 1,
-      "added": 1,
+      "added": 0,
       "errors": []
     }
   ],
@@ -352,7 +356,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-530be94c26118ffb0735",
@@ -372,7 +377,7 @@ export const recruitmentFeed = {
       "checked": "2026-11-23",
       "sourceId": "nj-nju-2027-ai",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T15:00:14+08:00"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-935689f6bc1fda3440e4",
@@ -408,15 +413,15 @@ export const recruitmentFeed = {
       "requirement": "宁事招公告（R）﹝2026﹞21号 为更好地选拔优秀适岗人才，优化学校人员结构，根据《江苏省事业单位公开招聘人员办法》（苏办发〔2020〕9号）和《中共中央组织部 人力资源社会保障部关于进一步做好事业单位公开招聘工作的通知》（人社部发〔2024〕57号）和《省委组织部 省人力资源社会保障厅关于进一步做好全省事业单位公开招聘工作的通知》（苏人社函〔2024〕467号）等规定，南京城市职业学院（南京开放大学）面向社会公开招聘16名列编制内管理的高层次人才。现将有关事项公告如下：…",
       "url": "https://www.njou.edu.cn/2026/1116/c5809a60970/page.htm",
       "published": "2026-11-16",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-njou",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-9fefbd808f3a4abf410e",
@@ -455,7 +460,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-46221cf112b5d49c9929",
@@ -486,15 +492,15 @@ export const recruitmentFeed = {
       "requirement": "> > 学院介绍 招聘岗位设置 申请条件 申请材料 薪酬待遇和相关工作与生活条件配套 申请截止日期 联系方式 About the School Positions Qualifications Supporting Materials for Application Compensation Package and Support Application deadline contacts 收起 南京大学计算机学院2026年度准聘长聘岗位（事业编制）招聘公告 Tenure-…",
       "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/20261027/i427499.html",
       "published": "2026-10-27",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-nju-cs-teaching",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-e1a6b8eaa6ed1c8bdc46",
@@ -524,15 +530,15 @@ export const recruitmentFeed = {
       "requirement": "中国药科大学坐落于钟灵毓秀、虎踞龙盘的古都南京，是一所历史悠久、在药学界享有盛誉的教育部直属、国家“211工程”和“双一流”建设高校。学校始建于1936年的国立药学专科学校（本科四年制），是我国历史上第一所由国家创办的药学高等学府。 因工作需要，公开招聘科研助理2名。 一、岗位性质 劳务派遣 二、岗位职责 1.协助开展细胞生物学、病毒学及动物实验相关的科研工作； 2.协助课题组进行P2实验室日常运行管理，包括实验室安全、设备维护与生物安全规范执行； 3.参与课题申报、项目总…",
       "url": "https://rsc.cpu.edu.cn/bc/cd/c4821a244941/page.htm",
       "published": "2026-10-14",
+      "applicationStart": "",
       "deadline": "2026-11-20",
+      "windowVerified": false,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-f1fbfde2e96a9689e20e",
@@ -543,16 +549,16 @@ export const recruitmentFeed = {
       "requirement": "中国药科大学坐落于古都南京，始建于1936年，是我国历史上第一所由国家创办的药学高等学府。学校为教育部直属、国家“211工程”和“985工程优势学科创新平台”建设高校，2017年成为国家“双一流”建设高校，是一所以药学为特色的多科性、研究型大学，其中以药学、中药学学科为龙头的药学学科群建设始终保持国内领先水平，素有“中国生物医药人才摇篮”的美誉。 中国药科大学马克思主义学院主要承担全校本硕博思政课教学与研究工作，设有思想政治教育二级学科硕士点、药学教育学二级学科硕博点。为建…",
       "url": "https://rsc.cpu.edu.cn/a8/e2/c4821a239842/page.htm",
       "published": "2026-10-14",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "conditionalVacancy": true,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "conditionalVacancy": true,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-4661181fef558f5ebf65",
@@ -563,15 +569,15 @@ export const recruitmentFeed = {
       "requirement": "中国药科大学为教育部直属、国家“211工程”、国家“双一流”建设高校，是一所以药学为特色的多科性、研究型大学，药学学科群建设始终保持国内领先水平。学校已实现化学药、中药、生物药三大领域科研平台的全覆盖，为各类新药的研发提供全方位服务。 为了进一步推动人工智能与药学深度融合，构建自主可控的智能药学研发新体系，中国药科大学人工智能学院作为首批江苏省人工智能学院之一，以科技创新与体制机制创新为主线，致力开展智能药学关键核心技术攻关，重点建设智能药物研发数据平台、算法平台和应用平台…",
       "url": "https://rsc.cpu.edu.cn/ba/c7/c4821a244423/page.htm",
       "published": "2026-09-21",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-2f21ca8a11ca44be611d",
@@ -639,15 +645,15 @@ export const recruitmentFeed = {
       "requirement": "中国药科大学坐落于古都南京，始建于1936年，是我国历史上第一所由国家创办的药学高等学府。学校为教育部直属、国家“211工程”和“985工程优势学科创新平台”建设高校，2017年成为国家“双一流”建设高校，是一所以药学为特色的多科性、研究型大学，其中以药学、中药学学科为龙头的药学学科群建设始终保持国内领先水平，素有“中国生物医药人才摇篮”的美誉。 因教学科研工作需要，现面向社会公开招聘体育部专任教师（游泳专项）1名，现将有关事项公告如下： 一、招聘岗位 具体岗位职责及招聘要…",
       "url": "https://rsc.cpu.edu.cn/b5/90/c4821a243088/page.htm",
       "published": "2026-08-20",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-b6ce1a6a786454df0f58",
@@ -658,15 +664,15 @@ export const recruitmentFeed = {
       "requirement": "一、学校与学院简介 中国药科大学始建于1936年，是教育部直属、国家\"211工程\"和\"双一流\"建设高校。学校以药学为特色，建有“多靶标天然药物”全国重点实验室及一批省部级创新平台，覆盖化学药、中药、生物药三大领域，学科水平国内领先。学校诚邀海内外优秀学者加盟，提供具有国际竞争力的薪酬待遇、一流的科研启动支持与完善的人才服务保障，共同打造世界一流药学学科。 生物医药卓越工程师学院 全国首个精专于生物医药产业全链条的卓越工程师学院，2024年获批首批“江苏省卓越工程师学院”。学…",
       "url": "https://rsc.cpu.edu.cn/b5/43/c4821a243011/page.htm",
       "published": "2026-08-17",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-50d274cb20111cbbda07",
@@ -677,15 +683,15 @@ export const recruitmentFeed = {
       "requirement": "根据工作需要，中国科学院、水利部成都山地灾害与环境研究所“山地风化剥蚀与地貌演化”创新团队（课题组）科研助理岗位现公开招聘。 一、岗位信息如下 岗位名称：科研助理 岗位性质：劳务派遣 岗位职数： 2 人 工作地点：四川省成都市 二、岗位职责 （1）增强岩石风化碳汇产业示范研究项目助理； （2）产业流程梳理与设计； （3）项目申请与汇报材料准备； （4）地方政府与企业对接； （5）项目日常管理； （6）国际交易规则研究与交易平台对接。 三、岗位要求 具有较强学习能力和探索精神…",
       "url": "https://imde.cas.cn/rczp/202608/t20260817_8261415.html",
       "published": "2026-08-17",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-chengdu-mountain",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-906b4dbf0024ee293cff",
@@ -721,15 +727,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地质古生物研究所成立于1951年，其前身为前中央研究院地质研究所及前中央地质调查所等机构的古生物室(组)，目前是我国唯一的从事古生物学(古无脊椎动物学与古植物学)和地层学研究的专业机构。具备一流的科研设施、条件和良好的科研氛围（ ）。我所全年招收特别研究助理，欢迎国内、国外优秀博士学位获得者应聘。 一、申请条件 1. 获得博士学位或即将获得博士学位人员，两位正高级别的专家推荐； 2. 参加或主持过科研项目并完成过重要科研成果，较系统地掌握本专业的基础知识，有独…",
       "url": "https://nigpas.cas.cn/yjdw/cyyc/zpgg/202207/t20220721_6487955.html",
       "published": "2026-07-29",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-palaeontology",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-9172f8d7531be825674d",
@@ -740,15 +746,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地质古生物研究所成立于1951年，其前身为前中央研究院地质研究所及前中央地质调查所等机构的古生物室(组)，目前是我国唯一的从事古生物学(古无脊椎动物学与古植物学)和地层学研究的专业机构。具备一流的科研设施、条件和良好的科研氛围（www.nigpas.cas.cn）。我所全年招收博士后，欢迎国内、国外优秀博士学位获得者应聘。 一、招聘条件 1、符合国家关于博士后招收的基本条件； 2、具有古生物学与地层学研究背景，研究方向为古生物学与地层学或地球生物学； 3、具有…",
       "url": "https://nigpas.cas.cn/rcjyu/bshzp/202207/t20220721_6488024.html",
       "published": "2026-07-29",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-palaeontology",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-95a42ddffb1263d2dd9a",
@@ -803,15 +809,15 @@ export const recruitmentFeed = {
       "requirement": "欢迎访问南京市教育局网站 | > > 责任编辑： 文章来源：南京市教育局 发布时间：2026-07-01 15:27 阅读次数：显示稿件总访问量 宁事招公告（R）〔2026〕12号 为更好地选拔优秀人才，优化人员结构，促进事业发展，根据《江苏省事业单位公开招聘人员办法》（苏办发〔2020〕9号）、《市委组织部 市人力资源和社会保障局关于做好〈江苏省事业单位公开招聘人员办法〉贯彻落实工作有关事项的通知》（宁人社〔2020〕84号）和《市委组织部 市人力资源和社会保障局转发〈省…",
       "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/202607/t20260701_5869258.html",
       "published": "2026-07-01",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-city-edu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-3929d20fe194848aa6d9",
@@ -830,7 +836,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-2692e42689ef72ac4ff6",
@@ -841,15 +848,15 @@ export const recruitmentFeed = {
       "requirement": "一、学校简介 中国药科大学坐落于古都南京，始建于1936年，是我国历史上第一所由国家创办的药学高等学府。学校为教育部直属、国家“211工程”和“985工程优势学科创新平台”建设高校，是一所以药学为特色的多科性、研究型大学，其中以药学、中药学学科为龙头的药学学科群建设始终保持国内领先水平，素有“中国生物医药人才摇篮”的美誉。2017年，成为国家“双一流”建设高校。2018年学校在生物与医药科目下招收了“化妆品与皮肤健康”专业硕士，2025年教育部批准招收药学科目下的“化妆品科…",
       "url": "https://rsc.cpu.edu.cn/af/08/c4821a241416/page.htm",
       "published": "2026-06-15",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-e8dc8c04f5d9381c442d",
@@ -860,7 +867,10 @@ export const recruitmentFeed = {
       "requirement": "附件：南京工业职业技术大学2026年公开招聘高层次人才公告 - 岗位表.xlsx",
       "url": "https://www.niit.edu.cn/23/48/c11a74568/page.htm",
       "published": "2026-06-04",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-niit",
@@ -871,10 +881,7 @@ export const recruitmentFeed = {
           "url": "https://www.niit.edu.cn/_upload/article/files/b7/8c/7334cfea42adb0d3a1b3181738a9/98ebf3a8-5627-4323-8088-a0c24eb6fd28.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-4e7a75644ce9faf0133f",
@@ -920,7 +927,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-378f2065d391e3585edf",
@@ -941,7 +949,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-a2bd9b6e23645cbcd63d",
@@ -952,7 +961,10 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2026年8月31日前取得相应学历学位。 4.应聘人员年龄不超过30周岁，…",
       "url": "https://rsc.njupt.edu.cn/2026/0520/c587a302314/page.htm",
       "published": "2026-05-20",
+      "applicationStart": "2026-05-20",
       "deadline": "2026-06-03",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-njupt",
@@ -963,10 +975,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/dc/1d/ae1ceb28460d814809a3f26cf864/729d358a-a96b-4bc4-8601-5c5eeb665585.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2026-05-20",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-e8413267b03b34221ba8",
@@ -1010,7 +1019,7 @@ export const recruitmentFeed = {
           "url": "https://jshrss.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=807f2a5c318144f686f141d9d51dcd81.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T15:00:14+08:00"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-f74b6cc6e2d8e5fea10e",
@@ -1021,7 +1030,10 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2026年8月31日前取得相应学历学位。 4.应聘人员年龄不超过35周岁，…",
       "url": "https://rsc.njupt.edu.cn/2026/0414/c587a299968/page.htm",
       "published": "2026-04-14",
+      "applicationStart": "2026-04-14",
       "deadline": "2026-04-28",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-njupt",
@@ -1032,10 +1044,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/e5/12/258bbf7441a88e12a0767db5b0bc/5f479fc4-3a24-4155-b8b5-e9d30957a72a.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2026-04-14",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-5f467abbf5d909620e88",
@@ -1046,15 +1055,15 @@ export const recruitmentFeed = {
       "requirement": "经研究决定，现启动成都山地所2026年度科研岗位招聘工作，其中编制内科研岗12个。 一、基本条件 （一）遵守宪法和法律； （二）具有良好的品行； （三）具有岗位所需的专业和技能条件； （四）具有适应岗位要求的身体条件； （五）有以下情形之一者，不得应聘：因犯罪受过刑事处罚的；正在接受纪律审查的或涉嫌违法犯罪正在接受调查的；曾在各级公职人员招考中被认定有舞弊等严重违反考试录用纪律行为且尚在禁考期内的；被依法列入失信联合惩戒对象名单的；曾有学术不端等不良行为的；聘用后构成回避关…",
       "url": "https://imde.cas.cn/rczp/202604/t20260409_8183303.html",
       "published": "2026-04-09",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-chengdu-mountain",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-21a73f8d6b13342872f0",
@@ -1073,7 +1082,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-3fb6ce9753b8c7fa211d",
@@ -1092,7 +1102,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-c4ec9e5f1f6ceec2bb09",
@@ -1111,7 +1122,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-06df4c29714985756586",
@@ -1122,15 +1134,15 @@ export const recruitmentFeed = {
       "requirement": "宁事招公告（R）﹝2026﹞5号 为更好地选拔优秀适岗人才，优化学校人员结构，根据《江苏省事业单位公开招聘人员办法》（苏办发〔2020〕9号）《中共中央组织部人力资源社会保障部关于进一步做好事业单位公开招聘工作的通知》（人社部发〔2024〕57号）和《省委组织部 省人力资源社会保障厅关于进一步做好全省事业单位公开招聘工作的通知》（苏人社函〔2024〕467号）等规定，南京城市职业学院（南京开放大学）面向社会公开招聘21名列编制内管理的高层次人才。现将有关事项公告如下： 一、…",
       "url": "https://www.njou.edu.cn/2026/0311/c5809a58858/page.htm",
       "published": "2026-03-11",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-njou",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-f91a4a962909cef6d41d",
@@ -1141,15 +1153,15 @@ export const recruitmentFeed = {
       "requirement": "中国银行股份有限公司（以下简称“中国银行”）于1912年2月正式成立，是中国持续经营时间最久的银行，也是中国全球化和综合化程度最高的银行，在中国内地及境外64个国家和地区设有机构，为客户提供全面的金融服务。 根据业务发展和人才储备需要，中国银行启动2026年实习生招聘，相关信息公告如下： 一、招聘机构 本次招聘采取统一组织的形式，参与招聘的机构包括总行、总行直属机构、境内分行、综合经营公司。 二、招聘岗位 （一）总行部门 总行部门实习生（信科）岗位，面向国内外院校招收信息科…",
       "url": "https://www.boc.cn/aboutboc/bi4/202603/t20260311_25654054.html",
       "published": "2026-03-11",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-2e599617a3c9d97c1ebf",
@@ -1160,15 +1172,15 @@ export const recruitmentFeed = {
       "requirement": "中国银行股份有限公司（以下简称“中国银行”）于1912年2月正式成立，是中国持续经营时间最久的银行，也是中国全球化和综合化程度最高的银行，在中国内地及境外64个国家和地区设有机构，为客户提供全面的金融服务。 根据业务发展需要，中国银行启动2026年春季招聘，相关信息公告如下： 一、招聘机构 本次招聘采取统一组织的形式，参与招聘的机构包括总行直属机构、境内分行、港澳台及海外机构、综合经营公司。 二、招聘岗位 （一）总行直属机构 1．信息科技运营中心信息科技岗位，面向国内外院校…",
       "url": "https://www.boc.cn/aboutboc/bi4/202603/t20260311_25654053.html",
       "published": "2026-03-11",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-b62c2f0c44fd97938b57",
@@ -1179,15 +1191,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院成都山地灾害与环境研究所（简称“成都山地所”）成立于1966年。自建所以来，结合区位优势、学科特点和学科发展基础，面向国家山区防灾减灾和生态环境建设战略需求，开展基础性、战略性和前瞻性“山地科学”研究，承担并完成了千余项国家和地方重大科研项目，解决了国家在山区建设和社会发展中的一系列重大科学问题，为我国山地灾害研究、山地灾害防治、脆弱山地生态环境的恢复与重建以及山区可持续发展做出了突出贡献。 因研究所科研布局与学科发展需要，现面向海内外公开招聘特别研究助理（博士后…",
       "url": "https://imde.cas.cn/rczp/202602/t20260204_8123414.html",
       "published": "2026-02-04",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-chengdu-mountain",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-63ab5a21c0d8e4393d0e",
@@ -1198,15 +1210,15 @@ export const recruitmentFeed = {
       "requirement": "根据工作需要，中国科学院、水利部成都山地灾害与环境研究所“地表关键带界面过程与效应调控”创新团队科研助理岗位现公开招聘。 一、岗位信息如下： 1.岗位名称：科研助理 2.岗位性质：劳务派遣 3.岗位职数：2-3人 4.工作地点：四川省成都市 二、岗位职责 1.协助开展生态恢复、生态修复相关领域的科研项目研究，参与撰写科研报告、学术论文及项目申报材料，完成课题组负责人交办的其他科研辅助工作； 2.参与遥感影像数据处理、GIS空间分析与制图工作，协助进行土壤样品采集、分析及数据…",
       "url": "https://imde.cas.cn/rczp/202602/t20260204_8123223.html",
       "published": "2026-02-04",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-chengdu-mountain",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-36904719b62f709283a3",
@@ -1236,7 +1248,10 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2025年12月31日前取得相应学历学位。 4.应聘人员年龄不超过35周岁…",
       "url": "https://rsc.njupt.edu.cn/2026/0123/c587a296751/page.htm",
       "published": "2026-01-23",
+      "applicationStart": "2026-01-23",
       "deadline": "2026-02-28",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-njupt",
@@ -1247,10 +1262,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/81/e0/c107257b44df845ede3bc8be504b/41a21108-97a4-4e32-9abd-e707b1ebee49.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2026-01-23",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-405e24bfd12770c3f4fd",
@@ -1261,7 +1273,10 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2025年8月31日前取得相应学历学位。 4.应聘人员年龄不超过35周岁，…",
       "url": "https://rsc.njupt.edu.cn/2026/0109/c587a296177/page.htm",
       "published": "2026-01-09",
+      "applicationStart": "2026-01-09",
       "deadline": "2026-01-18",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-njupt",
@@ -1272,10 +1287,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/26/cd/2e15455d4f0291e625a17fb03cf8/85cdea26-4d91-47aa-82bb-63045b8b2f63.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2026-01-09",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-bfe9bdffe8ab311e4f54",
@@ -1286,15 +1298,15 @@ export const recruitmentFeed = {
       "requirement": "全国高校生物医药区域技术转移转化中心（江苏南京）系教育部与江苏省共建的全国首个高校区域技术转移转化中心。该中心依托南京江北新区“双区叠加”的独特优势，以南京生物医药谷为核心载体，构建起一套从技术研发到产业落地的全链条生态体系。中国药科大学为教育部直属、国家“211工程”、国家“双一流”建设高校，是一所以药学为特色的多科性、研究型大学，其中以药学、中药学学科为龙头的药学学科群建设始终保持国内领先水平。学校已实现化学药、中药、生物药三大领域科研平台的全覆盖，为各类新药的研发提供…",
       "url": "https://rsc.cpu.edu.cn/85/d8/c4821a230872/page.htm",
       "published": "2025-12-11",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-70610291c34fbc0156c0",
@@ -1305,15 +1317,15 @@ export const recruitmentFeed = {
       "requirement": "宁事招公告（R）〔2025〕23号 为更好地选拔优秀适岗人才，优化人员结构，根据《江苏省事业单位公开招聘人员办法》（苏办发﹝2020﹞9号），南京城市职业学院（南京开放大学）2025年面向社会公开招聘12名工作人员，列编制内管理。现将有关事项公告如下： 一、招聘岗位 本次招聘相关信息在南京市人力资源和社会保障局网（http://rsj.nanjing.gov.cn）、南京城市职业学院网（www.ncc.edu.cn）、南京开放大学网（www.njou.edu.cn）等发布，…",
       "url": "https://www.njou.edu.cn/2025/1121/c5809a57879/page.htm",
       "published": "2025-11-21",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-njou",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-db33e920798c036610c0",
@@ -1332,7 +1344,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-cdb0544081465b413713",
@@ -1343,15 +1356,15 @@ export const recruitmentFeed = {
       "requirement": "中国银行股份有限公司（以下简称“中国银行”）于1912年2月正式成立，是中国持续经营时间最久的银行，也是中国全球化和综合化程度最高的银行，在中国内地及境外64个国家和地区设有机构，为客户提供全面的金融服务。 根据业务发展需要，中国银行启动2026年全球校园招聘，相关信息公告如下： 一、招聘机构 本次招聘采取统一组织的形式，参与招聘的机构包括总行、总行直属机构、审计分部、境内分行、港澳台及海外机构、综合经营公司。 二、招聘岗位 （一）总行 1. 总行管理培训生 总行部门管理培…",
       "url": "https://www.boc.cn/aboutboc/bi4/202509/t20250905_25484753.html",
       "published": "2025-09-05",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-ae4b66c954577bd55f95",
@@ -1370,7 +1383,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-23a855527a494b092669",
@@ -1381,15 +1395,15 @@ export const recruitmentFeed = {
       "requirement": "南京外国语学校应聘工作人员信息登记表.docx",
       "url": "https://www.nfls.com.cn/23/d4/c164a9172/page.htm",
       "published": "2025-08-12",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-nfls",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-2e456d4f9e9f23205b56",
@@ -1400,15 +1414,15 @@ export const recruitmentFeed = {
       "requirement": "中国银行于1912年2月正式成立，是中国持续经营时间最久的银行，也是中国全球化和综合化程度最高的银行，在中国内地及境外64个国家和地区设有机构。中国银行拥有比较完善的全球服务网络，形成了公司金融、个人金融和金融市场等商业银行业务为主体，涵盖投资银行、直接投资、证券、保险、基金、飞机租赁、资产管理、金融科技、金融租赁等多个领域的综合金融服务体系，为客户提供“一点接入、全球响应、综合服务”的金融解决方案。 根据业务发展需要，中国银行启动2025年社会招聘，相关信息公告如下： 一…",
       "url": "https://www.boc.cn/aboutboc/bi4/202507/t20250702_25401883.html",
       "published": "2025-07-02",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-08247808844fba5914b2",
@@ -1419,15 +1433,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地理与湖泊研究所是我国唯一以湖泊-流域系统为主要研究对象的综合性地理研究机构。研究所“湖库营养动力学”研究团队长期从事湖库富营养化发生机制、藻类生态学、水生态系统碳氮磷元素循环及温室气体排放等方向的研究，团队负责人为朱广伟研究员。团队实验室具备较好的实验条件和仪器装备，为充实团队研究力量，现招聘科研助理1名。 一、招聘岗位 科研助理：1名 二、岗位职责 1. 负责水质样品理化指标的检测分析，严格遵循国家标准及实验室SOP操作，确保数据准确性和可追溯性。 2.…",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202506/t20250624_7874339.html",
       "published": "2025-06-24",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-7cde5c7b415d6f6c736d",
@@ -1446,7 +1460,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-6b13de5d6ac16d3d2faf",
@@ -1465,7 +1480,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-22c4d1553b83af059f87",
@@ -1476,15 +1492,15 @@ export const recruitmentFeed = {
       "requirement": "一、学校简介 中国药科大学坐落于古都南京，始建于1936年，是我国历史上第一所由国家创办的药学高等学府。学校为教育部直属、国家“211工程”和“985工程优势学科创新平台”建设高校，2017年成为国家“双一流”建设高校，是一所以药学为特色的多科性、研究型大学，其中以药学、中药学学科为龙头的药学学科群建设始终保持国内领先水平。 学校致力于建设以“大药学+X”为牵引、“新药科”为特征、面向世界一流的现代药学学科体系。现有4个一级学科博士学位授权点（药学、中药学、生物学、生物医学…",
       "url": "https://rsc.cpu.edu.cn/6d/60/c4821a224608/page.htm",
       "published": "2025-06-12",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-dced1402d78998f83cf9",
@@ -1495,15 +1511,15 @@ export const recruitmentFeed = {
       "requirement": "1936年，是我国历史上第一所由国家创办的药学高等学府。学校为教育部直属、国家“211工程”和“985工程优势学科创新平台”建设高校，2017年成为国家“双一流”建设高校，是一所以药学为特色的多科性、研究型大学，其中以药学、中药学学科为龙头的药学学科群建设始终保持国内领先水平。 学校致力于建设以“大药学+X”为牵引、“新药科”为特征、面向世界一流的现代药学学科体系。现有4个一级学科博士学位授权点（药学、中药学、生物学、生物医学工程），2个博士专业学位授权点（生物与医药、药学…",
       "url": "https://rsc.cpu.edu.cn/6b/50/c4821a224080/page.htm",
       "published": "2025-05-31",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-df008325923057fcd368",
@@ -1514,7 +1530,10 @@ export const recruitmentFeed = {
       "requirement": "南京邮电大学是省教育厅主管的全额拨款事业单位，位于南京市栖霞区文苑路9号。为更好地选拔优秀适岗人才，充实人才队伍，优化师资结构，南京邮电大学现面向社会公开招聘优秀人才。根据《江苏省事业单位公开招聘人员办法》等规定，现将有关事项公告如下： 一、报考条件 （一）具有中华人民共和国国籍，遵守中华人民共和国宪法和法律。 （二）遵纪守法，品行端正，团结协作，敬业乐群、廉洁奉公。 （三）适应岗位要求的身体条件。 （四）中共党员（含中共预备党员），年龄不超过35周岁（1990年1月1日之…",
       "url": "https://rsc.njupt.edu.cn/2025/0606/c587a285247/page.htm",
       "published": "2025-05-30",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-njupt",
@@ -1525,10 +1544,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/e0/85/9c5da35244c082d4b17bf9c84a74/af750642-5c16-4703-9b82-33819c4c8cfd.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-34b0f8a10357a94720aa",
@@ -1539,15 +1555,15 @@ export const recruitmentFeed = {
       "requirement": "",
       "url": "https://www.niit.edu.cn/0a/80/c11a68224/page.htm",
       "published": "2025-05-19",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-e7e0dad8a1fa56612b72",
@@ -1558,15 +1574,15 @@ export const recruitmentFeed = {
       "requirement": "宁事招公告（R）﹝2025﹞10号 为更好地选拔优秀适岗人才，优化学校人员结构，根据《江苏省事业单位公开招聘人员办法》（苏办发〔2020〕9号）、《中共中央组织部人力资源社会保障部关于进一步做好事业单位公开招聘工作的通知》（人社部发〔2024〕57号）和《省委组织部 省人力资源社会保障厅关于进一步做好全省事业单位公开招聘工作的通知》（苏人社函〔2024〕467号）等规定，南京城市职业学院（南京开放大学）面向社会公开招聘24名列编制内管理的高层次人才。现将有关事项公告如下：…",
       "url": "https://www.njou.edu.cn/2025/0516/c5809a56310/page.htm",
       "published": "2025-05-16",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-njou",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-7bfbc0b467b35ceb0185",
@@ -1577,15 +1593,15 @@ export const recruitmentFeed = {
       "requirement": "中国药科大学地处历史文化名城南京，始建于1936年，是我国历史上第一所由国家创办的药学高等学府。学校为教育部直属、国家“211工程”和“985工程优势学科创新平台”建设高校，国家“双一流”建设高校，是一所以药学为特色的多科性、研究型大学，其中以药学、中药学学科为龙头的药学学科群建设始终保持国内领先水平。学校现有多靶标天然药物全国重点实验室，已建成临床前创新药物研发各节点相关的国家和省部级重点实验室、技术平台、工程技术中心30个，为各类新药的研发提供全方位服务。 中国药科大学…",
       "url": "https://rsc.cpu.edu.cn/63/83/c4821a222083/page.htm",
       "published": "2025-05-14",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-61f41f4fc1a1e1d2be75",
@@ -1604,7 +1620,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-d5dfd0b4387caf841deb",
@@ -1623,7 +1640,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-40b3d77dc8cb12bb282e",
@@ -1642,7 +1660,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-4c37e936f1a35c0afecd",
@@ -1653,15 +1672,15 @@ export const recruitmentFeed = {
       "requirement": "",
       "url": "https://www.jmi.edu.cn/94/3b/c3519a103483/page.htm",
       "published": "2025-04-30",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-jmi",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-a85b6bc62f02888f4b77",
@@ -1672,7 +1691,10 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2025年8月31日前取得相应学历学位。 4.应聘人员年龄不超过30周岁，…",
       "url": "https://rsc.njupt.edu.cn/2025/0428/c587a282758/page.htm",
       "published": "2025-04-28",
+      "applicationStart": "2025-04-28",
       "deadline": "2025-05-11",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-njupt",
@@ -1683,10 +1705,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/43/1b/ac68f9fc4009927e2eb392d94920/812f9129-f89b-42fc-b16c-dc64d7ff0b83.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2025-04-28",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-0227c845e85147121031",
@@ -1697,15 +1716,15 @@ export const recruitmentFeed = {
       "requirement": "一.招聘岗位 岗位：机房实验员 人数：1人 二.任职要求 学历：本科及以上学历。 专业：计算机、教育技术等相关专业。 ‌年龄：30周岁以下（1995年4月30日以后出生）。 工作内容：负责机房管理、网络调试、考试技术支持等学校教育教学相关工作。 ‌技能要求‌：熟悉计算机硬件维护、操作系统及网络设备配置‌，熟练掌握常用办公软件及教学软件安装与调试； ‌综合素质‌：具备良好的沟通能力、服务意识及团队协作精神。‌ 三.用工性质 编制外（劳务派遣）工作人员。薪酬待遇面议。工作地点为…",
       "url": "https://www.nfls.com.cn/22/fe/c164a8958/page.htm",
       "published": "2025-04-23",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-nfls",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-251c5e6d0c10008a9d39",
@@ -1716,15 +1735,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院成都山地灾害与环境研究所（简称“成都山地所”）成立于1966年。自建所以来，结合区位优势、学科特点和学科发展基础，面向国家山区防灾减灾和生态环境建设战略需求，开展基础性、战略性和前瞻性“山地科学”研究，承担并完成了千余项国家和地方重大科研项目，解决了国家在山区建设和社会发展中的一系列重大科学问题，为我国山地灾害研究、山地灾害防治、脆弱山地生态环境的恢复与重建以及山区可持续发展做出了突出贡献。 因研究所科研布局与学科发展需要，现面向海内外公开招聘高层次人才，详细信息…",
       "url": "https://imde.cas.cn/rczp/202509/t20250924_7976420.html",
       "published": "2025-04-16",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-chengdu-mountain",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-5a0fc31f9bd26d017c7a",
@@ -1735,15 +1754,15 @@ export const recruitmentFeed = {
       "requirement": "一、招聘岗位 部门：总务处 岗位：会计 人数：1人 二、招聘条件 1.年龄和学历：年龄35周岁以下（1990年1月1日以后出生），学历本科及以上，会计学、会计专业，须持有初级及以上会计职称证书。 2.工作内容：学校财务、资产管理、会计材料整理和学校安排的其他工作。 3.其他：遵守国家法律法规，热爱教育事业，品行端正，无违法违纪记录；工作有热情，做事认真耐心，责任心强；有服务意识和合作意识，有良好的沟通能力及协调处理能力。具备相关专业工作能力，能熟练使用财务软件及Excel等…",
       "url": "https://www.nfls.com.cn/22/f3/c164a8947/page.htm",
       "published": "2025-04-14",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-nfls",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-ae83367d4f7b80d5e4dd",
@@ -1754,15 +1773,15 @@ export const recruitmentFeed = {
       "requirement": "中国银行于1912年2月正式成立，是中国持续经营时间最久的银行，也是中国全球化和综合化程度最高的银行，在中国内地及境外64个国家和地区设有机构。中国银行拥有比较完善的全球服务网络，形成了公司金融、个人金融和金融市场等商业银行业务为主体，涵盖投资银行、直接投资、证券、保险、基金、飞机租赁、资产管理、金融科技、金融租赁等多个领域的综合金融服务体系，为客户提供“一点接入、全球响应、综合服务”的金融解决方案。 根据业务发展需要，中国银行公开招聘部分高层次海外人才，有关事宜公告如下：…",
       "url": "https://www.boc.cn/aboutboc/bi4/202503/t20250326_25304552.html",
       "published": "2025-03-26",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-a16d247f363cc66de71f",
@@ -1773,15 +1792,15 @@ export const recruitmentFeed = {
       "requirement": "中国银行股份有限公司（以下简称“中国银行”）于1912年2月正式成立，是中国持续经营时间最久的银行，也是中国全球化和综合化程度最高的银行，在中国内地及境外64个国家和地区设有机构，为客户提供全面的金融服务。 根据业务发展需要，中国银行启动2025年春季招聘，相关信息公告如下： 一、招聘机构 本次招聘采取统一组织的形式，参与招聘的机构包括总行直属机构、审计分部、境内分行、港澳台及海外机构、综合经营公司。 二、招聘岗位 （一）总行直属机构 1. 银行卡中心金融综合、信息科技岗位…",
       "url": "https://www.boc.cn/aboutboc/bi4/202503/t20250303_25283198.html",
       "published": "2025-03-03",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-4d0ffa62bcefa0bf1cc7",
@@ -1792,15 +1811,15 @@ export const recruitmentFeed = {
       "requirement": "中国银行股份有限公司（以下简称“中国银行”）于1912年2月正式成立，是中国持续经营时间最久的银行，也是中国全球化和综合化程度最高的银行，在中国内地及境外64个国家和地区设有机构，为客户提供全面的金融服务。 根据业务发展和人才储备需要，中国银行启动2025年实习生招聘，相关信息公告如下： 一、招聘机构 本次招聘采取统一组织的形式，参与招聘的机构包括总行、总行直属机构、境内分行、综合经营公司。 二、招聘岗位 （一）总行部门 总行部门实习生（信科）岗位，面向国内外院校招收信息科…",
       "url": "https://www.boc.cn/aboutboc/bi4/202503/t20250303_25283197.html",
       "published": "2025-03-03",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-46a11768090a3c12cbf8",
@@ -1811,7 +1830,10 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2025年8月31日前取得相应学历学位。 4.应聘人员年龄不超过30周岁，…",
       "url": "https://rsc.njupt.edu.cn/2025/0213/c587a278342/page.htm",
       "published": "2025-02-13",
+      "applicationStart": "2025-02-13",
       "deadline": "2025-02-26",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-njupt",
@@ -1822,10 +1844,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/99/70/a6c4b3994013ba09c401c4e8ccbf/82d92b04-efca-4717-8cc5-815c963bbd3c.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2025-02-13",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-fbfe296a6cd6a32d4ade",
@@ -1836,15 +1855,15 @@ export const recruitmentFeed = {
       "requirement": "一、招聘岗位 部门：总务处 岗位：内勤 人数：1人 二、招聘条件 1. 年龄和学历：年龄35周岁以下（1990年1月1日以后出生），学历大专及以上，应急管理、工程、机电相关专业。条件特别优秀的（具备中级以上工程类职称、注册消防工程师、注册安全工程师证书）年龄放宽至40周岁（1985年1月1日以后出生）。 2. 工作内容：学校安全工作、工程维修监督、台账记录及整理和学校安排的其他工作。 3. 其他：男女不限。要求具有较高的政治素质，遵纪守法，品行端正；工作有热情，做事认真耐心…",
       "url": "https://www.nfls.com.cn/22/76/c164a8822/page.htm",
       "published": "2025-01-16",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-nfls",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-37bfef973b327673b397",
@@ -1855,15 +1874,15 @@ export const recruitmentFeed = {
       "requirement": "根据工作需要,南京市第一中学面向社会公开招聘3名编制外(劳务派遣)工作人员。现将有关事项公告如下: 一、招聘岗位 招聘3名编制外(劳务派遣)工作人员,具体如下: 国际部:国际部经济教师1名、国际部化学教师1名、国际部统计教师1名。 本次招聘相关信息在智联招聘、南京一中校园网(http://www.njyz.net)上发布。 二、招聘条件: (一) 国际部经济教师应具备以下条件: 1.具有中华人民共和国国籍,遵纪守法,品行端正,身体健康;热爱教育事业,具有高度的工作热情和责任…",
       "url": "https://www.njyz.net/zszp/jzgzp/content_45285",
       "published": "2024-12-30",
+      "applicationStart": "2024-12-31",
       "deadline": "2025-01-10",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-no1-middle",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2024-12-31",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-a798edcdb7823c2867d9",
@@ -1874,7 +1893,10 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2024年8月31日前取得相应学历学位。 4.应聘人员年龄不超过30周岁，…",
       "url": "https://rsc.njupt.edu.cn/2024/1009/c587a270929/page.htm",
       "published": "2024-10-09",
+      "applicationStart": "2024-10-09",
       "deadline": "2024-10-22",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-njupt",
@@ -1885,10 +1907,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/64/22/7c6dabd54834b79dc774e48cca7d/603186a7-af73-4e01-affa-1901a472ea98.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2024-10-09",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-ce63a2095ab64fd15001",
@@ -1899,15 +1918,15 @@ export const recruitmentFeed = {
       "requirement": "根据工作需要,南京市第一中学面向社会公开招聘1名编制外(劳务派遣)工作人员。现将有关事项公告如下: 一、招聘岗位 招聘1名编制外(劳务派遣)工作人员,具体如下:高中部北校区:学生发展处职员1名。本次招聘相关信息在智联招聘、南京一中校园网(http://www.njyz.net)上发布。 二、招聘条件: 高中部北校区学生发展处职员应具备以下条件: 1.具有中华人民共和国国籍,遵纪守法,品行端正,身体健康; 2.热爱教育事业,具有高度的工作热情和责任心以及良好的职业道德; 3.…",
       "url": "https://www.njyz.net/zszp/jzgzp/content_44955",
       "published": "2024-09-26",
+      "applicationStart": "2024-09-27",
       "deadline": "2024-10-11",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-no1-middle",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2024-09-27",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-a4d86797f7e95a3eda0a",
@@ -1918,15 +1937,15 @@ export const recruitmentFeed = {
       "requirement": "根据工作需要,南京市第一中学面向社会公开招聘1名编制外(劳务派遣)工作人员。现将有关事项公告如下: 一、招聘岗位 招聘1名编制外(劳务派遣)工作人员,具体如下:高中部北校区:学生发展处职员1名。本次招聘相关信息在智联招聘、南京一中校园网(http://www.njyz.net)上发布。 二、招聘条件: 高中部北校区学生发展处职员应具备以下条件:(1) 具有中华人民共和国国籍,遵纪守法,品行端正,身体健康;(2)热爱教育事业,具有高度的工作热情和责任心以及良好的职业道德;(3…",
       "url": "https://www.njyz.net/zszp/jzgzp/content_44954",
       "published": "2024-09-26",
+      "applicationStart": "2024-09-27",
       "deadline": "2024-10-11",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-no1-middle",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2024-09-27",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-813b0f62a66728047863",
@@ -1937,15 +1956,15 @@ export const recruitmentFeed = {
       "requirement": "中国银行上海人民币交易业务总部（以下简称“上海总部”）成立于2012年3月，作为专营机构，在总行战略规划指引下和授权范围内，负责经营和管理人民币债券市场交易、人民币货币市场交易、贵金属交易等金融市场业务，以及上海地区金融机构客户业务和跨境人民币清算业务、资金结算业务等。 根据工作需要，中国银行上海总部现面向社会公开招聘，有关事宜公告如下： 一、招聘职位信息 招聘职位 职级 招聘 人数 工作 地点 金融市场部贵金属自营交易台 高级交易员/交易员 高级经理/中级经理 1 上海…",
       "url": "https://www.boc.cn/aboutboc/bi4/202409/t20240920_25158734.html",
       "published": "2024-09-20",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-5be2b19a670ff10a48b3",
@@ -1956,15 +1975,15 @@ export const recruitmentFeed = {
       "requirement": "一．招聘岗位 部门 岗位 人数 学生处 常规管理老师 2人 二．招聘条件 1. 年龄和学历：年龄35周岁以下（1989年9月1日以后出生），学历本科及以上，专业不限。 2. 其他：男女不限。要求具有较高的政治素质，遵纪守法，品行端正，服从学校工作安排，中共党员及有学校教育工作经验者优先；对学生工作有热情，做事认真，稳重耐心，责任心强，能做到坚持原则与尊重学生相结合；熟练使用办公系统软件，有良好的文字功底，能独立组织活动；有合作意识，具有协调处理能力，能积极主动完成工作要求。…",
       "url": "https://www.nfls.com.cn/21/d0/c164a8656/page.htm",
       "published": "2024-09-06",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-nfls",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-f20ea9e92e49ff01917f",
@@ -1975,15 +1994,15 @@ export const recruitmentFeed = {
       "requirement": "中国银行股份有限公司（以下简称“中国银行”）于1912年2月正式成立，是中国持续经营时间最久的银行，也是中国全球化和综合化程度最高的银行，在中国内地及境外64个国家和地区设有机构，为客户提供全面的金融服务。 根据业务发展需要，中国银行启动2025年全球校园招聘，相关信息公告如下： 一、招聘机构 本次招聘采取统一组织的形式，参与招聘的机构包括总行、总行直属机构、审计分部、境内分行、港澳台及海外机构、综合经营公司。 二、招聘岗位 （一）总行 1. 总行部门 管理培训生（信息科技…",
       "url": "https://www.boc.cn/aboutboc/bi4/202409/t20240904_25147628.html",
       "published": "2024-09-04",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-51f69b502274cd53227f",
@@ -1994,15 +2013,15 @@ export const recruitmentFeed = {
       "requirement": "中国银行于1912年2月正式成立，是中国持续经营时间最久的银行，也是中国全球化和综合化程度最高的银行，在中国内地及境外64个国家和地区设有机构。中国银行拥有比较完善的全球服务网络，形成了公司金融、个人金融和金融市场等商业银行业务为主体，涵盖投资银行、直接投资、证券、保险、基金、飞机租赁、资产管理、金融科技、金融租赁等多个领域的综合金融服务体系，为客户提供“一点接入、全球响应、综合服务”的金融解决方案。 中银集团保险有限公司（简称“中银集团保险”）是中国银行的全资子公司，自1…",
       "url": "https://www.boc.cn/aboutboc/bi4/202408/t20240816_25134190.html",
       "published": "2024-08-16",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-559fd768320dcba09b0e",
@@ -2013,7 +2032,10 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2024年8月31日前取得相应学历学位。 4.应聘人员年龄不超过30周岁，…",
       "url": "https://rsc.njupt.edu.cn/2024/0705/c587a267504/page.htm",
       "published": "2024-07-05",
+      "applicationStart": "2024-07-05",
       "deadline": "2024-07-19",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-njupt",
@@ -2024,10 +2046,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/d6/68/f9be46c749cd9abe1cd5cdcdac81/38e6e847-5a7e-4b0a-9a87-b7c220bf6dc5.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2024-07-05",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-5e5435c5dd0d3e831925",
@@ -2038,7 +2057,10 @@ export const recruitmentFeed = {
       "requirement": "南京邮电大学是省教育厅主管的全额拨款事业单位，位于南京市栖霞区文苑路9号。为更好地选拔优秀适岗人才，充实人才队伍，优化师资结构，南京邮电大学现面向社会公开招聘优秀人才。根据《江苏省事业单位公开招聘人员办法》等规定，现将有关事项公告如下： 一、报考条件 （一）具有中华人民共和国国籍，遵守中华人民共和国宪法和法律。 （二）遵纪守法，品行端正，团结协作，敬业乐群、廉洁奉公。 （三）适应岗位要求的身体条件。 （四）中共党员（含中共预备党员），年龄不超过35周岁（即1989年1月1日…",
       "url": "https://rsc.njupt.edu.cn/2024/0621/c587a266462/page.htm",
       "published": "2024-06-20",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-njupt",
@@ -2049,10 +2071,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/e7/38/23cad9d84f208674a35ab04a7fca/04c8dc52-0925-4650-ada3-9fe2a3597463.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-4774b47b4a71be0f4086",
@@ -2063,15 +2082,15 @@ export const recruitmentFeed = {
       "requirement": "",
       "url": "https://www.niit.edu.cn/ed/20/c11a60704/page.htm",
       "published": "2024-05-17",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-67321fc20a1c619f2e7c",
@@ -2082,15 +2101,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地理与湖泊研究所是全国唯一以湖泊-流域系统为主要研究对象的国立综合研究机构。研究所“湖库营养动力学”研究团队长期从事湖库富营养化发生机制、藻类生态学、水生态系统碳氮磷元素循环及温室气体排放等方向的研究，团队负责人为朱广伟研究员。团队实验室具备较好的实验条件和仪器装备，为充实团队研究力量，现招聘科研助理1名。 招聘岗位： 科研助理：1名 主要职责： 1. 负责实验室的日常管理运行，包括实验室各种仪器的运行与管理及试剂药品的保存等； 2. 协助课题组开展相关研究工…",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202405/t20240514_7159493.html",
       "published": "2024-05-14",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-bdc5de6dfd030cd32851",
@@ -2101,7 +2120,11 @@ export const recruitmentFeed = {
       "requirement": "江苏海事职业技术学院是省教育厅主管的全额拨款事业单位，位于江苏省南京市江宁区格致路309号。为更好地选拔优秀适岗人才，充实人才队伍，优化师资结构，江苏海事职业技术学院现面向社会公开招聘优秀人才。根据《江苏省事业单位公开招聘人员办法》等规定，现将有关事项公告如下： 一、报考条件 （一）具有中华人民共和国国籍，遵守中华人民共和国宪法和法律。 （二）遵纪守法，品行端正，团结协作，敬业乐群、廉洁奉公。 （三）适应岗位要求的身体条件。 （四）年龄要求为：博士研究生年龄不超过40周岁（…",
       "url": "https://www.jmi.edu.cn/57/ba/c3519a87994/page.htm",
       "published": "2024-03-19",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "conditionalVacancy": true,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-jmi",
@@ -2112,11 +2135,7 @@ export const recruitmentFeed = {
           "url": "https://www.jmi.edu.cn/_upload/article/files/33/30/c5b073c545f4a844724eebd36af7/9e68a1d0-32d7-4c68-b6cf-5d77131ca23f.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "conditionalVacancy": true,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-46b6fe7435d68ed0d60e",
@@ -2127,15 +2146,15 @@ export const recruitmentFeed = {
       "requirement": "根据工作需要，南京市第一中学面向社会公开招聘4名编制外（劳务派遣）工作人员。现将有关事项公告如下： 一、招聘岗位 招聘4名编制外（劳务派遣）工作人员，具体如下： 高中部南校区：图书馆管理员1名、办公室文员1名。 高中部北校区：食堂管理人员1名、综合办公室文员1名。 本次招聘相关信息在智联招聘、南京一中校园网（http://www.njyz.net）上发布。 二、招聘条件： （一） 高中部南校区图书馆管理员应具备以下条件： 1． 具有中华人民共和国国籍，遵纪守法，品行端正，身…",
       "url": "https://www.njyz.net/zszp/jzgzp/content_44423",
       "published": "2023-12-12",
+      "applicationStart": "2023-12-12",
       "deadline": "2023-12-19",
+      "windowVerified": true,
+      "applicationStatus": "closed",
       "closed": true,
       "checked": "2026-11-23",
       "sourceId": "nj-no1-middle",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "2023-12-12",
-      "windowVerified": true,
-      "applicationStatus": "closed"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-29b804fd040c72637782",
@@ -2146,15 +2165,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地质古生物研究所成立于1951年，其前身为前中央研究院地质研究所及前中央地质调查所等机构的古生物室(组)，目前是我国唯一的从事古生物学(古无脊椎动物学与古植物学)和地层学研究的专业机构。具备一流的科研设施、条件和良好的科研氛围（ ）。 一、岗位设置 我所长期面向海内外公开招聘符合下列研究领域的研究员、副研究员、助理研究员若干名。研究领域主要为： （一）地球生命起源与早期演化； （二）进化古生物学与气候古生物学； （三）门类古生物系统分类学； （四）古生态、古地…",
       "url": "https://nigpas.cas.cn/yjdw/cyyc/zpgg/202309/t20230912_6877888.html",
       "published": "2023-09-12",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-palaeontology",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-62d2aba2f4dec3d6e408",
@@ -2165,15 +2184,15 @@ export const recruitmentFeed = {
       "requirement": "",
       "url": "https://www.niit.edu.cn/ed/1f/c11a60703/page.htm",
       "published": "2023-04-11",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-688a5020e895e349658e",
@@ -2184,15 +2203,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地理与湖泊研究所是湖泊-流域系统为主要研究对象的国家级综合研究机构。湖泊型流域水生态模拟与评价研究团队长期从事湖泊-流域过程模拟、湖泊-流域健康调查与评价、水生态功能分区等方向研究。团队负责人为高俊峰研究员，中国科学院南京地理与湖泊研究所博士生导师，兼任中国地理学会长江分会副主任委员。 课题团队在湖泊流域生态修复、流域综合管理与模拟、生态环境评价等方面在国内外取得较有影响的成绩，先后主持完成国家973、重大科技专项、国家重点研发等课题和子课题10余项；出版专著…",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202302/t20230208_6672874.html",
       "published": "2023-02-08",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-7b463927b2a5eb9ebd3c",
@@ -2203,7 +2222,10 @@ export const recruitmentFeed = {
       "requirement": "简历填报入口： 联系方式： 通信地址：江苏省南京市江宁区格致路309号邮编211170 联系人：江苏海事职业技术学院人事处宋老师、张老师 联系电话：025-86176916 025-86176977 电子邮箱：jshyrs6916@126.com",
       "url": "https://www.jmi.edu.cn/31/a6/c3519a78246/page.htm",
       "published": "2022-10-20",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-jmi",
@@ -2214,10 +2236,7 @@ export const recruitmentFeed = {
           "url": "https://www.jmi.edu.cn/_upload/article/files/3f/97/ca71683d4be9a3fdb7f01d924d2c/5a2bacba-e8de-4914-8a37-a5a38c2f1c63.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-1deaa37979410cd1491c",
@@ -2228,15 +2247,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地理与湖泊研究所，是我国东南沿海和长江中下游地区可持续发展研究与决策重要的咨询中心之一。近年来，依托区域发展与规划研究中心、长三角一体化发展研究中心，汇聚了一批区域发展与规划、产业发展与布局、国土空间规划与城乡治理、资源利用与生态环境保护等学科领域的专家学者，紧紧围绕区域可持续发展中基础性、前瞻性、战略性重大问题展开研究，积极为国家与各级地方政府提供咨询服务。现因科研工作需要，面向社会及科研院所公开招聘科研助理1-2名。 一、岗位职责 1、协助完成科研数据、材…",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202207/t20220720_6482997.html",
       "published": "2022-07-20",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-47b7795e45fbb074a4fc",
@@ -2247,15 +2266,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地理与湖泊研究所坐落于美丽的玄武湖畔，是全国唯一以湖泊-流域系统为主要研究对象的综合研究机构，拥有湖泊与环境国家重点实验室、中国科学院流域地理学重点实验室，以及太湖、鄱阳湖、抚仙湖等多个野外台站。湖泊水动力与水生态环境研究团队长期从事湖泊流场、波浪等动力过程与水生态要素观测、变化机理与模型开发和数值模拟等工作，近年来承担了国家水体污染防治重大专项、巢湖数字流场建设等多项各级科研课题。现因科研工作需要，面向社会及高等院校公开招聘科研助理人员1名。 一、岗位职责…",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202206/t20220629_6468024.html",
       "published": "2022-06-29",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-7eb620f542101c8d35ea",
@@ -2266,15 +2285,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地理与湖泊研究所是全国唯一以湖泊-流域系统为主要研究对象的国立综合研究机构。湖泊复合污染治理修复团队长期从事湖泊水体复合污染控制、水环境监测、底泥物化及生物原位修复、水生态系统修复等领域的理论与技术研究。团队目前承担国家自然科学重点基金、长江联合基金、中国科学院科研仪器设备研制等多个项目。实验室具备较好的实验条件和仪器装备，现公开招聘科研项目助理1-2名，协助团队完成相关项目研究工作。 一、岗位职责 协助开展实验室相关专业方向的研究工作，参与野外采样、样品分析…",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202206/t20220623_6465258.html",
       "published": "2022-06-23",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-0fd65162452d3428a1db",
@@ -2285,15 +2304,15 @@ export const recruitmentFeed = {
       "requirement": "",
       "url": "https://www.niit.edu.cn/cb/c0/c11a52160/page.htm",
       "published": "2022-04-21",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-258e56bf0766c07307d4",
@@ -2304,15 +2323,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地理与湖泊研究所是全国唯一以湖泊-流域系统为主要研究对象的国立综合研究机构。“河湖水环境修复”研究团队主要从事河湖水环境监测、污染过程、机理与生态化治理技术的研究，团队负责人丁士明研究员先后入选国家重点人才工程创新领军和青年拔尖人才，科技部中青年科技创新领军人才，国家基金委优秀青年科学基金获得者；担任SCI刊物Environmental Chemistry Letter副主编、Journal of Soils and Sediments等4个SCI期刊的编委、…",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202201/t20220124_6347372.html",
       "published": "2022-01-24",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-7ae2a7b981c54bf16c3e",
@@ -2323,15 +2342,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地理与湖泊研究所是全国唯一以湖泊-流域系统为主要研究对象的国立综合研究机构。“水土过程与流域管理”研究团队是研究所重要研究领域，主要从事水土资源利用与环境效应、流域生态评估与生态健康、流域污染控制和流域综合管理理论与技术研发，推进流域山水林田湖草综合治理、流域生态产品价值实现、流域污染控制与土地管控、流域规划与管理决策技术产业化。参与建设中国科学院湖泊环境治理与生态修复工程实验、天目湖流域生态观测研究站和南京市新型研发机构-南京国兴环保产业研究院。 团队负责人…",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202112/t20211213_6297676.html",
       "published": "2021-12-13",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-e480e64ed5d0109adc0b",
@@ -2342,15 +2361,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地质古生物研究所成立于1951年，其前身为前中央研究院地质研究所及前中央地质调查所等机构的古生物室（组），目前是我国唯一的从事古生物学（古无脊椎动物学与古植物学）和地层学研究的专业机构。具备一流的科研设施、条件和良好的科研氛围（ ）。因研究所发展与科研布局需要，现面向海、内外长期诚聘率先行动人才计划岗位人员，欢迎古生物学、地层学、古气候学、古生态学和天体生物学等领域的高层次人才应聘。 一、岗位设置与职责 1. A类： 正高三级（含）以上专业技术岗位，应承担学术…",
       "url": "https://nigpas.cas.cn/yjdw/cyyc/zpgg/202207/t20220721_6487957.html",
       "published": "2021-06-28",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-palaeontology",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-50425689dd04abef4fc1",
@@ -2361,15 +2380,15 @@ export const recruitmentFeed = {
       "requirement": "",
       "url": "https://www.niit.edu.cn/90/84/c11a36996/page.htm",
       "published": "2021-03-05",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-0dc293aef75c92a9e728",
@@ -2380,15 +2399,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地理与湖泊研究所是全国唯一以湖泊-流域系统为主要研究对象的国立综合研究机构。研究所的战略定位是开展自然和人文要素驱动下湖泊－流域系统格局、过程、机理及修复原理和技术研究，为湖泊科学研究、湖泊资源合理利用、湖泊环境治理与生态保护以及区域可持续发展做出基础性、战略性和前瞻性贡献。研究所拥有湖泊与环境国家重点实验室、中国科学院湖泊环境治理与生态修复工程实验室及太湖、鄱阳湖、抚仙湖、呼伦湖等湖泊生态系统研究国家站等。 鱼类生态学是湖泊与环境国家重点实验室的重要学科方向…",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202012/t20201231_5849393.html",
       "published": "2020-12-31",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-b48a4d3aecf467102b9b",
@@ -2399,15 +2418,15 @@ export const recruitmentFeed = {
       "requirement": "广聚英才 共谋发展 南京工业职业技术大学海内外优秀人才招聘公告 一、学校概况 南京工业职业技术大学是我国首家公办本科层次职业技术大学，是一所历史悠久、底蕴厚重的百年名校。前身是黄炎培先生创建于1918年的中华职业学校——我国第一所以“职业”冠名的学校。2019年，升格为本科层次职业教育试点学校；2020年，经教育部批准更名为南京工业职业技术大学。百年传承、薪火相继，学校培养了张闻天、华罗庚、江竹筠、徐伯昕、朱森林、秦怡、顾心怿、王世绩、邹世昌等一批杰出校友及大批实用型技术人…",
       "url": "https://www.niit.edu.cn/84/df/c11a34015/page.htm",
       "published": "2020-11-02",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-1c7cda3b781436e524de",
@@ -2418,15 +2437,15 @@ export const recruitmentFeed = {
       "requirement": "中国科学院南京地理与湖泊研究所环境毒理学研究团队长期从事湖泊水体微囊藻毒素及其他有毒污染物产生、食物链迁移/转化与消除、毒理效应以及健康评价等方向的机理与技术研究，团队负责人为谢丽强研究员。团队实验室具备较好的实验条件和仪器装备，为充实团队研究力量，现招聘科研助理1名。 一、岗位及职责 1.协助本课题组相关研究工作，包括野外调研、样品分析以及数据处理等； 2.协助管理实验室的日常运行，包括实验室仪器维护、进出人员登记以及试剂药品的保存等； 3.完成团队负责人安排的其他工作任…",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202008/t20200824_5672449.html",
       "published": "2020-08-24",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-84a9f8f79420a8e4e99e",
@@ -2437,15 +2456,15 @@ export const recruitmentFeed = {
       "requirement": ">> >> >>",
       "url": "https://yan.sicau.edu.cn/info/1038/20569.htm",
       "published": "",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-ac209b5706f86d9f7d77",
@@ -2456,15 +2475,15 @@ export const recruitmentFeed = {
       "requirement": ">> >> >>",
       "url": "https://yan.sicau.edu.cn/info/1038/20559.htm",
       "published": "",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-f5ef9412819687cdb20f",
@@ -2475,15 +2494,15 @@ export const recruitmentFeed = {
       "requirement": ">> >> >>",
       "url": "https://yan.sicau.edu.cn/info/1038/20549.htm",
       "published": "",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-66ec9cf67b5fbb86c000",
@@ -2494,7 +2513,10 @@ export const recruitmentFeed = {
       "requirement": ">> >> >>",
       "url": "https://yan.sicau.edu.cn/info/1038/20519.htm",
       "published": "",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-sicau-employment",
@@ -2505,10 +2527,7 @@ export const recruitmentFeed = {
           "url": "https://yan.sicau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1553038503&wbfileid=01E64E4C66987D1531B71C247B71B122"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-241c995b3b5cadd48338",
@@ -2519,15 +2538,15 @@ export const recruitmentFeed = {
       "requirement": ">> >> >>",
       "url": "https://yan.sicau.edu.cn/info/1038/20499.htm",
       "published": "",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-965027fc510596fa125f",
@@ -2538,7 +2557,10 @@ export const recruitmentFeed = {
       "requirement": ">> >> >>",
       "url": "https://yan.sicau.edu.cn/info/1038/20469.htm",
       "published": "",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-sicau-employment",
@@ -2549,10 +2571,7 @@ export const recruitmentFeed = {
           "url": "https://yan.sicau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1553038503&wbfileid=88A55BB80AC8B02EA3CC10D669738A7E"
         }
       ],
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-631fc941c323486e70b3",
@@ -2563,15 +2582,15 @@ export const recruitmentFeed = {
       "requirement": ">> >> >>",
       "url": "https://yan.sicau.edu.cn/info/1038/20459.htm",
       "published": "",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-8d42351ac74384d23a10",
@@ -2582,15 +2601,15 @@ export const recruitmentFeed = {
       "requirement": ">> >> >>",
       "url": "https://yan.sicau.edu.cn/info/1038/20439.htm",
       "published": "",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-9543f6695e5d3c2c2409",
@@ -2609,7 +2628,7 @@ export const recruitmentFeed = {
       "checked": "2026-11-23",
       "sourceId": "nj-nis-2027-design",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T15:00:14+08:00"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-46f17f204c158d6c43fc",
@@ -2620,15 +2639,15 @@ export const recruitmentFeed = {
       "requirement": "教师招聘 RECRUITMENT 教师招聘岗位 [南京汉开书院学校] A LEVEL数学、物理、化学、经济、信息技术教师 工作职责： 熟悉中西方课程体系融合，采用国际化教学理念和方式，进行课程设计研发； 课程讲授、学科相关活动的组织与实施； 履行教学教研活动，与学科组教师沟通探讨，重视业务能力提升； 积极参与家校沟通，与班主任导师保持接触，促进学生全面发展； 向部门主任汇报工作。 任职资格： 学士学历以上，相关专业毕业； 外语，TESOL，数学知识 具备2年以上教学相关工作…",
       "url": "https://www.hankaiedu.com/%E6%95%99%E5%B8%88%E6%8B%9B%E8%81%98/",
       "published": "",
+      "applicationStart": "",
       "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-23",
       "sourceId": "nj-hankai-page",
       "recordType": "notice",
-      "lastAttempt": "2026-11-23T13:04:44+08:00",
-      "applicationStart": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown"
+      "lastAttempt": "2026-11-23T15:59:57+08:00"
     },
     {
       "id": "notice-62f657793d6c8a3c2a79",
@@ -2653,7 +2672,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-63f72179816e9a63dac0",
@@ -2678,7 +2698,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-522ad393b0187861f756",
@@ -2703,7 +2724,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-c6775297ca8dbe2c9775",
@@ -2722,7 +2744,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-1c06758548d3d5a1443b",
@@ -2747,7 +2770,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-6b936ba19e219e3a9cd6",
@@ -2772,7 +2796,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-9d0bc400a6bde12bbe4a",
@@ -2797,7 +2822,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-950535a77fd06130aaf0",
@@ -2822,7 +2848,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-bda071047f63d53265be",
@@ -2847,7 +2874,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     },
     {
       "id": "notice-4df9978dc6bc5b02cca6",
@@ -2866,7 +2894,8 @@ export const recruitmentFeed = {
       "lastAttempt": "2026-11-23T13:04:44+08:00",
       "applicationStart": "",
       "windowVerified": false,
-      "applicationStatus": "unknown"
+      "applicationStatus": "unknown",
+      "availability": "stale"
     }
   ]
 };
