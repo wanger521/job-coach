@@ -1,0 +1,104 @@
+/* Load after the site and profile styles so their field widths and fonts still apply. */
+:root {
+  --select-surface: var(--white, #fff);
+  --select-border: 1px solid var(--line, #dfe3da);
+  --select-shadow: 0 8px 24px rgb(32 47 40 / 16%);
+}
+
+select:not([multiple]):not([size]),
+select:not([multiple])[size="0"],
+select:not([multiple])[size="1"] {
+  border-radius: 10px;
+  min-inline-size: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+select:not([multiple]):disabled { cursor: default; }
+
+.atlas-select-menu {
+  position: fixed;
+  inset: auto;
+  z-index: 2147483647;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 4px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border: var(--select-border);
+  border-radius: 12px;
+  background: var(--select-surface);
+  color: var(--ink);
+  box-shadow: var(--select-shadow);
+  text-align: start;
+}
+.atlas-select-menu [role="option"], .atlas-select-group-label {
+  display: flex;
+  align-items: baseline;
+  gap: .6em;
+  padding: .55em .7em;
+  border-radius: 8px;
+  line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+.atlas-select-group-label { color: var(--muted); font-weight: 600; cursor: default; }
+.atlas-select-menu [role="option"]::before {
+  content: "";
+  flex: 0 0 1em;
+}
+.atlas-select-menu [aria-selected="true"]::before { content: "✓"; }
+.atlas-select-menu [aria-selected="true"] { background: var(--green); color: var(--forest); }
+.atlas-select-menu [role="option"]:focus {
+  outline: 2px solid var(--forest);
+  outline-offset: -2px;
+}
+.atlas-select-menu [aria-disabled="true"] { opacity: .55; cursor: default; }
+@media (hover: hover) {
+  .atlas-select-menu [aria-selected]:not([aria-disabled]):hover { background: var(--green); }
+}
+
+@supports (appearance: base-select) and selector(::picker(select)) {
+  select:not([hidden]):not([multiple]):is(:not([size]), [size="0"], [size="1"]) {
+    appearance: base-select;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .7em;
+    text-align: start;
+  }
+  select:not([multiple]):is(:not([size]), [size="0"], [size="1"])::picker(select) {
+    appearance: base-select;
+    box-sizing: border-box;
+    inline-size: anchor-size(width);
+    min-inline-size: min(14rem, 100%);
+    max-inline-size: 100%;
+    max-block-size: min(22rem, 100%);
+    overflow: auto;
+    overscroll-behavior: contain;
+    padding: 4px;
+    border: var(--select-border);
+    border-radius: 12px;
+    background: var(--select-surface);
+    color: var(--ink);
+    box-shadow: var(--select-shadow);
+  }
+  select::picker-icon { color: var(--forest); flex-shrink: 0; }
+  select:not([multiple]):is(:not([size]), [size="0"], [size="1"]) option {
+    padding: .55em .7em;
+    border-radius: 8px;
+    line-height: 1.45;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  /* Keep the browser's checkmark and its accessible selection state. */
+  select:not([multiple]):is(:not([size]), [size="0"], [size="1"]) option:checked {
+    color: var(--forest);
+    background: var(--green);
+  }
+  select option:focus-visible {
+    outline: 2px solid var(--forest);
+    outline-offset: -2px;
+  }
+}

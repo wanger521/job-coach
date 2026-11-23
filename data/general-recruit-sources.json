@@ -1,0 +1,77 @@
+[
+  {
+    "id": "general-sicau-employment",
+    "name": "四川农业大学研究生院就业信息",
+    "city": "",
+    "kind": "高校就业信息",
+    "url": "https://yan.sicau.edu.cn/jygz/jyxx.htm",
+    "include": [
+      "招聘",
+      "校招",
+      "宣讲",
+      "实习",
+      "招录"
+    ],
+    "detailPattern": "/info/1038/[0-9]+\\.htm$"
+  },
+  {
+    "id": "general-chengdu-xingcheng",
+    "name": "成都兴城投资集团及所属企业招聘公告",
+    "city": "",
+    "kind": "国企集团招聘",
+    "url": "https://www.cdxctz.com/rczphome.aspx?t=69&commpany=%E5%85%A8%E9%83%A8&type=%E6%8B%9B%E8%81%98%E5%85%AC%E5%91%8A",
+    "include": [
+      "招聘",
+      "选聘"
+    ],
+    "detailPattern": "/giftedinfo\\.aspx\\?t=52&ContentId=[0-9]+$"
+  },
+  {
+    "id": "general-nanjing-palaeontology",
+    "name": "中国科学院南京地质古生物研究所",
+    "city": "",
+    "kind": "科研院所官网",
+    "url": "https://nigpas.cas.cn/yjdw/cyyc/zpgg/",
+    "include": [
+      "招聘通知",
+      "招聘公告",
+      "招聘启事"
+    ],
+    "detailPattern": "/(?:yjdw/cyyc/zpgg|rcjyu/bshzp)/[0-9]{6}/t[0-9]{8}_[0-9]+\\.html$"
+  },
+  {
+    "id": "general-nanjing-lakes",
+    "name": "中国科学院南京地理与湖泊研究所",
+    "city": "",
+    "kind": "科研院所官网",
+    "url": "https://niglas.cas.cn/yjdw_164152/rczp/",
+    "include": [
+      "招聘",
+      "诚聘",
+      "Postdoctoral Position"
+    ],
+    "detailPattern": "/yjdw_164152/rczp/[0-9]{6}/t[0-9]{8}_[0-9]+\\.html$"
+  },
+  {
+    "id": "general-bank-of-china",
+    "name": "中国银行",
+    "city": "",
+    "kind": "银行官网",
+    "url": "https://www.boc.cn/aboutboc/bi4/index.html",
+    "include": [
+      "招聘"
+    ],
+    "detailPattern": "/aboutboc/bi4/[0-9]{6}/t[0-9]{8}_[0-9]+\\.html$"
+  },
+  {
+    "id": "general-chengdu-mountain",
+    "name": "中国科学院、水利部成都山地灾害与环境研究所",
+    "city": "",
+    "kind": "科研院所官网",
+    "url": "https://imde.cas.cn/rczp/",
+    "include": [
+      "招聘"
+    ],
+    "detailPattern": "/rczp/[0-9]{6}/t[0-9]{8}_[0-9]+\\.html$"
+  }
+]

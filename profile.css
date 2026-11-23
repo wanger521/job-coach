@@ -1,0 +1,400 @@
+/* Load alongside profile.mjs. Every style is limited to an active assessment. */
+dialog.jcp-dialog {
+  --jcp-forest: #20473e;
+  --jcp-paper: #fffef9;
+  --jcp-ink: #243b33;
+  --jcp-muted: #53665b;
+  --jcp-sage: #eaf0e5;
+  --jcp-rule: #d2dbcc;
+  --jcp-ochre: #94651e;
+  --jcp-gutter: clamp(1rem, 4vw, 2.5rem);
+  box-sizing: border-box;
+  position: fixed;
+  inset: 0;
+  width: min(42rem, calc(100% - 2rem));
+  min-width: 0;
+  max-width: none;
+  height: fit-content;
+  max-height: calc(100% - 2rem);
+  margin: auto;
+  border: 0;
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  background: var(--jcp-paper);
+  color: var(--jcp-ink);
+  color-scheme: light;
+  box-shadow: 0 20px 70px rgb(25 47 37 / 22%);
+  font: 400 1rem/1.6 var(--sans);
+  text-align: start;
+  letter-spacing: normal;
+  overflow-wrap: anywhere;
+}
+dialog.jcp-dialog:not([open]) {
+  display: none;
+}
+dialog.jcp-dialog::backdrop {
+  opacity: 1;
+  background: rgb(23 43 35 / 45%);
+}
+.jcp-dialog *,
+.jcp-dialog *::before,
+.jcp-dialog *::after {
+  box-sizing: border-box;
+}
+.jcp-dialog ::selection {
+  background: #d7e5c9;
+  color: var(--jcp-forest);
+}
+.jcp-dialog .jcp-sheet {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 2rem);
+  max-height: calc(100dvh - 2rem);
+}
+.jcp-dialog :is(button, input, select) {
+  font: inherit;
+  letter-spacing: normal;
+}
+.jcp-dialog :is(button, summary, select, input[type="checkbox"]) {
+  cursor: pointer;
+}
+.jcp-dialog button {
+  margin: 0;
+  min-width: 0;
+  text-transform: none;
+}
+.jcp-dialog :focus-visible {
+  outline: 3px solid var(--jcp-ochre);
+  outline-offset: 2px;
+}
+.jcp-dialog .jcp-header {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.55rem max(1rem, calc(var(--jcp-gutter) - 0.5rem)) 0.55rem
+    var(--jcp-gutter);
+  background: var(--jcp-forest);
+  color: var(--jcp-paper);
+}
+.jcp-dialog .jcp-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 650;
+}
+.jcp-dialog .jcp-title::before {
+  content: "";
+  display: inline-block;
+  width: 0.68rem;
+  height: 1.15rem;
+  background: #deb974;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%);
+}
+.jcp-dialog .jcp-close {
+  position: relative;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 6px;
+  color: inherit;
+  background: transparent;
+}
+.jcp-dialog .jcp-close {
+  display: grid;
+  place-items: center;
+  padding: 0;
+}
+.jcp-dialog .jcp-close:focus-visible {
+  outline-color: #ebcb87;
+}
+.jcp-dialog .jcp-progress {
+  flex: none;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 1.35rem var(--jcp-gutter) 0.55rem;
+}
+.jcp-dialog .jcp-marker {
+  margin: 0;
+  border-top: 3px solid var(--jcp-rule);
+  padding: 0.4rem 0 0;
+  color: var(--jcp-muted);
+  font-size: 0.79rem;
+  line-height: 1.4;
+}
+.jcp-dialog .jcp-marker.jcp-done {
+  border-color: #7f9983;
+}
+.jcp-dialog .jcp-marker[aria-current] {
+  border-color: var(--jcp-ochre);
+  color: #765019;
+  font-weight: 750;
+}
+.jcp-dialog .jcp-body {
+  min-height: 0;
+  padding: 1.4rem var(--jcp-gutter) 1.85rem;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #9eafa0 var(--jcp-paper);
+}
+.jcp-dialog .jcp-question {
+  margin: 0;
+  color: var(--jcp-forest);
+  font: 650 clamp(1.5rem, 4vw, 2rem)/1.38 var(--sans);
+  text-wrap: balance;
+}
+.jcp-dialog .jcp-question:focus {
+  outline: none;
+}
+.jcp-dialog .jcp-hint {
+  margin: 0.55rem 0 1.45rem;
+  color: var(--jcp-muted);
+  font-size: 0.94rem;
+}
+.jcp-dialog .jcp-choices {
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.jcp-dialog .jcp-grid,
+.jcp-dialog .jcp-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+.jcp-dialog .jcp-choice {
+  display: flex;
+  align-items: center;
+  gap: 0.72rem;
+  min-height: 2.85rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #a5b3a4;
+  border-radius: 6px;
+  background: var(--jcp-paper);
+  cursor: pointer;
+}
+.jcp-dialog .jcp-choice:has(input:checked) {
+  border-color: var(--jcp-forest);
+  background: var(--jcp-sage);
+}
+.jcp-dialog .jcp-choice:has(:focus-visible) {
+  outline: 3px solid var(--jcp-ochre);
+  outline-offset: 1px;
+}
+.jcp-dialog .jcp-choice input {
+  flex: none;
+  position: static;
+  appearance: auto;
+  opacity: 1;
+  width: 1.05rem;
+  height: 1.05rem;
+  margin: 0;
+  accent-color: var(--jcp-forest);
+}
+.jcp-dialog .jcp-choice-copy {
+  display: grid;
+  gap: 0.05rem;
+}
+.jcp-dialog .jcp-choice-name {
+  font-weight: 650;
+}
+.jcp-dialog .jcp-choice-hint {
+  color: var(--jcp-muted);
+  font-size: 0.82rem;
+}
+.jcp-dialog .jcp-field {
+  display: grid;
+  align-content: start;
+  gap: 0.4rem;
+  font-weight: 650;
+}
+.jcp-dialog .jcp-field :is(input, select) {
+  width: 100%;
+  min-width: 0;
+  min-height: 2.85rem;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid #879985;
+  border-radius: 5px;
+  color: var(--jcp-ink);
+  background-color: var(--jcp-paper);
+  caret-color: var(--jcp-forest);
+  font-weight: 400;
+}
+.jcp-dialog .jcp-field input::placeholder {
+  color: var(--jcp-muted);
+  opacity: 1;
+}
+.jcp-dialog .jcp-review {
+  margin: 0;
+}
+.jcp-dialog .jcp-review-row {
+  display: grid;
+  grid-template-columns: 6.2em minmax(0, 1fr);
+  align-items: baseline;
+  gap: 0.75rem;
+  border-top: 1px solid var(--jcp-rule);
+  padding: 0.25rem 0;
+}
+.jcp-dialog .jcp-review-row dt {
+  font-weight: 650;
+}
+.jcp-dialog .jcp-review-value {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.65rem;
+  margin: 0;
+}
+.jcp-dialog .jcp-empty {
+  color: var(--jcp-muted);
+}
+.jcp-dialog .jcp-edit,
+.jcp-dialog .jcp-back {
+  flex: none;
+  min-height: 2.75rem;
+  padding: 0.4rem 0.55rem;
+  border: 0;
+  border-radius: 4px;
+  color: var(--jcp-forest);
+  background: transparent;
+  font-weight: 650;
+}
+.jcp-dialog .jcp-edit {
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+}
+.jcp-dialog .jcp-method {
+  padding: 0.25rem 0.85rem;
+  background: var(--jcp-sage);
+  border-radius: 5px;
+  font-size: 0.89rem;
+}
+.jcp-dialog .jcp-method summary {
+  padding: 0.65rem 0;
+  color: var(--jcp-forest);
+  font-weight: 650;
+}
+.jcp-dialog .jcp-method p {
+  margin: 0.1rem 0 0.85rem;
+}
+.jcp-dialog .jcp-footer {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem var(--jcp-gutter);
+  border-top: 1px solid var(--jcp-rule);
+  background: #f6f7f0;
+}
+.jcp-dialog .jcp-count {
+  color: var(--jcp-muted);
+  font-size: 0.86rem;
+  font-variant-numeric: tabular-nums;
+}
+.jcp-dialog .jcp-next {
+  min-height: 2.75rem;
+  margin-inline-start: auto;
+  padding: 0.55rem 1.35rem;
+  border: 1px solid var(--jcp-forest);
+  border-radius: 5px;
+  background: var(--jcp-forest);
+  color: var(--jcp-paper);
+  font-weight: 650;
+}
+.jcp-dialog .jcp-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+@media (hover: hover) {
+  .jcp-dialog .jcp-close:hover {
+    background: #365b4e;
+  }
+  .jcp-dialog .jcp-choice:hover {
+    border-color: var(--jcp-forest);
+  }
+  .jcp-dialog :is(.jcp-edit, .jcp-back):hover {
+    background: var(--jcp-sage);
+  }
+  .jcp-dialog .jcp-next:hover {
+    background: #15382e;
+  }
+}
+@media (max-width: 35rem) {
+  dialog.jcp-dialog {
+    inset: auto 0 0;
+    width: 100%;
+    max-height: 100%;
+    margin: 0;
+    border-radius: 14px 14px 0 0;
+  }
+  .jcp-dialog .jcp-sheet {
+    max-height: 96vh;
+    max-height: 96dvh;
+  }
+  .jcp-dialog .jcp-body {
+    padding-block: 1rem 1.25rem;
+  }
+  .jcp-dialog .jcp-fields {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+  .jcp-dialog .jcp-progress {
+    padding-top: 0.9rem;
+  }
+  .jcp-dialog .jcp-footer {
+    padding-bottom: max(0.85rem, env(safe-area-inset-bottom));
+  }
+  .jcp-dialog .jcp-review-row {
+    grid-template-columns: 5em minmax(0, 1fr);
+    gap: 0.4rem;
+  }
+  .jcp-dialog .jcp-choice {
+    gap: 0.5rem;
+    padding: 0.55rem 0.6rem;
+  }
+}
+@media (max-width: 23rem) {
+  .jcp-dialog .jcp-grid {
+    grid-template-columns: 1fr;
+  }
+  .jcp-dialog .jcp-marker {
+    font-size: 0.72rem;
+  }
+}
+@media (max-height: 26rem) {
+  .jcp-dialog .jcp-sheet {
+    display: block;
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+  .jcp-dialog .jcp-body {
+    overflow: visible;
+  }
+}
+@media (forced-colors: active) {
+  dialog.jcp-dialog,
+  .jcp-dialog .jcp-close,
+  .jcp-dialog .jcp-back {
+    border: 1px solid ButtonText;
+  }
+  .jcp-dialog .jcp-marker[aria-current] {
+    border-color: Highlight;
+    text-decoration: underline;
+  }
+}
