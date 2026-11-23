@@ -1,0 +1,67 @@
+[
+  {
+    "id": "nj-hankai-page",
+    "name": "南京汉开书院学校 · 教师招聘",
+    "kind": "学校官网",
+    "city": "南京",
+    "url": "https://www.hankaiedu.com/%E6%95%99%E5%B8%88%E6%8B%9B%E8%81%98/",
+    "watchTitle": "南京汉开书院学校教师招聘",
+    "include": [
+      "教师招聘",
+      "教师"
+    ]
+  },
+  {
+    "id": "nj-nju-cs-teaching",
+    "name": "南京大学计算机学院 · 专任教师招聘公告",
+    "city": "南京",
+    "kind": "学校官网",
+    "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/20261027/i427499.html",
+    "watchTitle": "南京大学计算机学院准聘长聘岗位招聘公告",
+    "include": [
+      "招聘",
+      "准聘"
+    ]
+  },
+  {
+    "id": "nj-nis-2027-design",
+    "name": "南京国际外籍人员子女学校 · 2027–28 学年职位",
+    "kind": "学校官网",
+    "city": "南京",
+    "url": "https://www.nischina.org/join-our-school/careers/vacancies",
+    "watchTitle": "IB MYP 设计教师（数字设计、机器人与影像）招聘",
+    "include": [
+      "数字设计",
+      "Digital Design",
+      "Vacancies"
+    ],
+    "requiredText": [
+      "Vacancies 2027-28",
+      "IB MYP Design including Digital Design, Robotics, Film"
+    ]
+  },
+  {
+    "id": "nj-nju-2027-ai",
+    "name": "南京大学人工智能学院 · 2027 年度准聘教师",
+    "kind": "学校官网",
+    "city": "南京",
+    "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/20261118/i432483.html",
+    "watchTitle": "人工智能学院准聘助理教授、准聘副教授（2027 年度）招聘",
+    "include": [
+      "招聘",
+      "准聘"
+    ]
+  },
+  {
+    "id": "nj-njtech-post22",
+    "name": "南京工业大学 · 教学科研岗公告",
+    "kind": "主管部门",
+    "city": "南京",
+    "url": "https://jshrss.jiangsu.gov.cn/art/2026/4/20/art_57210_11759874.html",
+    "watchTitle": "计算机与信息工程学院（人工智能学院）教学科研岗（岗位 22）招聘",
+    "include": [
+      "招聘",
+      "准聘"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "career-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node build.mjs",
+    "check": "node tools/check_catalog.mjs && node --test tools/test_job_board.mjs",
+    "jobs:update": "python -X utf8 tools/update_recruitment.py"
+  }
+}

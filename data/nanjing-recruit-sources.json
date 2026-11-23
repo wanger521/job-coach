@@ -1,0 +1,143 @@
+[
+  {
+    "id": "nj-city-edu",
+    "name": "南京市教育局 · 教师招聘",
+    "city": "南京",
+    "kind": "教育部门",
+    "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/",
+    "include": [
+      "公开招聘教师公告",
+      "公开招聘高层次人才、紧缺人才公告",
+      "招聘工作人员公告",
+      "公开招聘教师",
+      "教师招聘",
+      "选聘"
+    ]
+  },
+  {
+    "id": "nj-nsfz-jiangning",
+    "name": "南京师范大学附属中学江宁分校 · 招聘信息",
+    "city": "南京",
+    "kind": "学校官网",
+    "url": "https://www.nsfz.cn/index/articlelists/lists/pid/25/article_cate_id/57.html",
+    "include": [
+      "招聘",
+      "诚聘",
+      "人才引进",
+      "选聘"
+    ],
+    "detailPattern": "/index/articlelists/details/pid/25/article_cate_id/57/article_id/\\d+\\.html$"
+  },
+  {
+    "id": "nj-nfls",
+    "name": "南京外国语学校 · 通知公告",
+    "city": "南京",
+    "kind": "学校官网",
+    "url": "https://www.nfls.com.cn/164/list.htm",
+    "include": [
+      "招聘",
+      "引进",
+      "诚聘",
+      "选聘"
+    ]
+  },
+  {
+    "id": "nj-no1-middle",
+    "name": "南京市第一中学 · 教职工招聘",
+    "city": "南京",
+    "kind": "学校官网",
+    "url": "https://www.njyz.net/zszp/jzgzp",
+    "include": [
+      "招聘教师公告",
+      "招聘启事",
+      "招聘编制外工作人员公告",
+      "人员招聘公告",
+      "人才招聘公告",
+      "人才公告"
+    ],
+    "detailPattern": "/zszp/jzgzp/content_\\d+$"
+  },
+  {
+    "id": "nj-njupt",
+    "name": "南京邮电大学 · 校外招聘",
+    "city": "南京",
+    "kind": "学校官网",
+    "url": "https://rsc.njupt.edu.cn/587/list.htm",
+    "include": [
+      "招聘",
+      "诚聘",
+      "人才引进",
+      "选聘"
+    ],
+    "detailPattern": "/\\d{4}/\\d{4}/c587a\\d+/page\\.htm$"
+  },
+  {
+    "id": "nj-njou",
+    "name": "南京城市职业学院（南京开放大学） · 学校通知",
+    "city": "南京",
+    "kind": "学校官网",
+    "url": "https://www.njou.edu.cn/5809/list.htm",
+    "include": [
+      "招聘",
+      "引进",
+      "诚聘",
+      "选聘"
+    ],
+    "detailPattern": "/\\d{4}/\\d{4}/c5809a\\d+/page\\.htm$"
+  },
+  {
+    "id": "nj-niit",
+    "name": "南京工业职业技术大学 · 招聘需求",
+    "city": "南京",
+    "kind": "学校官网",
+    "url": "https://www.niit.edu.cn/11/list.htm",
+    "include": [
+      "招聘",
+      "诚聘",
+      "人才引进",
+      "选聘"
+    ],
+    "detailPattern": "/[a-f\\d]{2}/[a-f\\d]{2}/c11a\\d+/page\\.htm$"
+  },
+  {
+    "id": "nj-cpu",
+    "name": "中国药科大学人事处 · 招聘信息",
+    "city": "南京",
+    "kind": "学校官网",
+    "url": "https://rsc.cpu.edu.cn/4821/list.htm",
+    "include": [
+      "招聘",
+      "诚聘",
+      "人才引进",
+      "选聘"
+    ],
+    "detailPattern": "/[a-f\\d]{2}/[a-f\\d]{2}/c4821a\\d+/page\\.htm$"
+  },
+  {
+    "id": "nj-jmi",
+    "name": "江苏海事职业技术学院 · 长期招聘",
+    "city": "南京",
+    "kind": "学校官网",
+    "url": "https://www.jmi.edu.cn/zqzp/list.htm",
+    "include": [
+      "招聘",
+      "引进",
+      "诚聘",
+      "选聘"
+    ],
+    "detailPattern": "/[a-f\\d]{2}/[a-f\\d]{2}/c3519a\\d+/page\\.htm$"
+  },
+  {
+    "id": "nj-nju-faculty-list",
+    "name": "南京大学人才招聘网 · 专任教师岗位列表",
+    "kind": "学校官网",
+    "city": "南京",
+    "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/index.html",
+    "include": [
+      "招聘",
+      "准聘",
+      "长聘"
+    ],
+    "detailPattern": "/zrjs/zrjsgwlb/\\d{8}/i\\d+\\.html$"
+  }
+]
