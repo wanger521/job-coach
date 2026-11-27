@@ -1,5 +1,5 @@
 export const recruitmentFeed = {
-  "updatedAt": "2026-11-26T16:40:56+08:00",
+  "updatedAt": "2026-11-27T16:51:08+08:00",
   "sources": [
     {
       "id": "nj-city-edu",
@@ -8,8 +8,8 @@ export const recruitmentFeed = {
       "kind": "教育部门",
       "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 1,
       "verified": 1,
       "added": 0,
@@ -22,7 +22,7 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.nsfz.cn/index/articlelists/lists/pid/25/article_cate_id/57.html",
       "status": "failed",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
       "lastSuccess": "2026-11-23T13:04:44+08:00",
       "discovered": 0,
       "verified": 0,
@@ -38,9 +38,9 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.nfls.com.cn/164/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
-      "discovered": 5,
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
+      "discovered": 4,
       "verified": 5,
       "added": 0,
       "errors": []
@@ -52,8 +52,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.njyz.net/zszp/jzgzp",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 4,
       "verified": 4,
       "added": 0,
@@ -66,8 +66,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://rsc.njupt.edu.cn/587/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 14,
       "verified": 10,
       "added": 0,
@@ -79,15 +79,13 @@ export const recruitmentFeed = {
       "city": "南京",
       "kind": "学校官网",
       "url": "https://www.njou.edu.cn/5809/list.htm",
-      "status": "partial",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "status": "ok",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 4,
-      "verified": 3,
+      "verified": 4,
       "added": 0,
-      "errors": [
-        "<urlopen error [Errno 101] Network is unreachable> · https://www.njou.edu.cn/2026/1116/c5809a60970/page.htm"
-      ]
+      "errors": []
     },
     {
       "id": "nj-niit",
@@ -96,8 +94,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.niit.edu.cn/11/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 7,
       "verified": 7,
       "added": 0,
@@ -110,11 +108,11 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://rsc.cpu.edu.cn/4821/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 14,
       "verified": 10,
-      "added": 1,
+      "added": 0,
       "errors": []
     },
     {
@@ -124,8 +122,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.jmi.edu.cn/zqzp/list.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 3,
       "verified": 3,
       "added": 0,
@@ -138,8 +136,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/index.html",
       "status": "empty",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 0,
       "verified": 0,
       "added": 0,
@@ -152,11 +150,11 @@ export const recruitmentFeed = {
       "kind": "高校就业信息",
       "url": "https://yan.sicau.edu.cn/jygz/jyxx.htm",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 7,
-      "verified": 8,
-      "added": 0,
+      "verified": 9,
+      "added": 1,
       "errors": []
     },
     {
@@ -166,7 +164,7 @@ export const recruitmentFeed = {
       "kind": "国企集团招聘",
       "url": "https://www.cdxctz.com/rczphome.aspx?t=69&commpany=%E5%85%A8%E9%83%A8&type=%E6%8B%9B%E8%81%98%E5%85%AC%E5%91%8A",
       "status": "failed",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
       "lastSuccess": "2026-11-23T13:04:44+08:00",
       "discovered": 0,
       "verified": 0,
@@ -182,8 +180,8 @@ export const recruitmentFeed = {
       "kind": "科研院所官网",
       "url": "https://nigpas.cas.cn/yjdw/cyyc/zpgg/",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 6,
       "verified": 6,
       "added": 0,
@@ -195,15 +193,13 @@ export const recruitmentFeed = {
       "city": "",
       "kind": "科研院所官网",
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/",
-      "status": "partial",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "status": "ok",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 13,
-      "verified": 9,
+      "verified": 10,
       "added": 0,
-      "errors": [
-        "HTTP 404 · https://niglas.cas.cn/yjdw_164152/rczp/202610/t20261030_8300597.html"
-      ]
+      "errors": []
     },
     {
       "id": "general-bank-of-china",
@@ -212,8 +208,8 @@ export const recruitmentFeed = {
       "kind": "银行官网",
       "url": "https://www.boc.cn/aboutboc/bi4/index.html",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 13,
       "verified": 10,
       "added": 0,
@@ -226,8 +222,8 @@ export const recruitmentFeed = {
       "kind": "科研院所官网",
       "url": "https://imde.cas.cn/rczp/",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 6,
       "verified": 5,
       "added": 0,
@@ -240,8 +236,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.hankaiedu.com/%E6%95%99%E5%B8%88%E6%8B%9B%E8%81%98/",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 1,
       "verified": 1,
       "added": 0,
@@ -254,8 +250,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/20261027/i427499.html",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 1,
       "verified": 1,
       "added": 0,
@@ -268,8 +264,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://www.nischina.org/join-our-school/careers/vacancies",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 1,
       "verified": 1,
       "added": 0,
@@ -282,8 +278,8 @@ export const recruitmentFeed = {
       "kind": "学校官网",
       "url": "https://rczp.nju.edu.cn/zrjs/zrjsgwlb/20261118/i432483.html",
       "status": "ok",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "lastSuccess": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
+      "lastSuccess": "2026-11-27T16:51:08+08:00",
       "discovered": 1,
       "verified": 1,
       "added": 0,
@@ -296,7 +292,7 @@ export const recruitmentFeed = {
       "kind": "主管部门",
       "url": "https://jshrss.jiangsu.gov.cn/art/2026/4/20/art_57210_11759874.html",
       "status": "failed",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
       "lastSuccess": "2026-11-24T18:09:43+08:00",
       "discovered": 0,
       "verified": 0,
@@ -324,7 +320,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-c2a6be1f56196abe0bea",
@@ -340,11 +337,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-74b723f7cd01b8676536",
@@ -356,15 +352,14 @@ export const recruitmentFeed = {
       "url": "https://rsc.cpu.edu.cn/c9/8a/c4821a248202/page.htm",
       "published": "2026-11-24",
       "applicationStart": "",
-      "deadline": "",
+      "deadline": "2026-12-02",
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-5f56bcdad772025be2e5",
@@ -381,10 +376,10 @@ export const recruitmentFeed = {
       "conditionalVacancy": true,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-palaeontology",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-6280bb62cae9b7129138",
@@ -396,15 +391,14 @@ export const recruitmentFeed = {
       "url": "https://rsc.cpu.edu.cn/c9/1e/c4821a248094/page.htm",
       "published": "2026-11-20",
       "applicationStart": "",
-      "deadline": "",
+      "deadline": "2026-12-10",
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-25af0408d90e3038b1ac",
@@ -420,11 +414,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-a909b01425073bc59d06",
@@ -461,10 +454,10 @@ export const recruitmentFeed = {
       "conditionalVacancy": true,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-nju-2027-ai",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-935689f6bc1fda3440e4",
@@ -475,12 +468,12 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2026年8月31日前取得相应学历学位。 4.应聘人员年龄不超过35周岁，…",
       "url": "https://rsc.njupt.edu.cn/2026/1117/c587a311819/page.htm",
       "published": "2026-11-17",
-      "applicationStart": "",
-      "deadline": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown",
+      "applicationStart": "2026-11-17",
+      "deadline": "2026-12-01",
+      "windowVerified": true,
+      "applicationStatus": "open",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "nj-njupt",
       "recordType": "notice",
       "positionTables": [
@@ -489,8 +482,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/6b/ce/88d405fc4ea49612d0c49151551c/54cb5135-2b75-4ad7-97d4-aabb77ce69f0.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-1ab800328149dd3ad292",
@@ -506,11 +498,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-23",
+      "checked": "2026-11-27",
       "sourceId": "nj-njou",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-9fefbd808f3a4abf410e",
@@ -522,15 +513,15 @@ export const recruitmentFeed = {
       "url": "https://niglas.cas.cn/yjdw_164152/rczp/202611/t20261110_8307661.html",
       "published": "2026-11-10",
       "applicationStart": "",
-      "deadline": "2026-11-30",
+      "deadline": "",
       "windowVerified": false,
-      "deadlineTime": "17:00",
       "applicationStatus": "unknown",
       "closed": false,
       "checked": "2026-11-26",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-e468bdef73538189c55b",
@@ -586,10 +577,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-palaeontology",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-1c7b4e062ccd032cb8ea",
@@ -605,10 +596,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-nju-cs-teaching",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-e1a6b8eaa6ed1c8bdc46",
@@ -624,11 +615,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-e8cf730374bcf220b6e2",
@@ -640,14 +630,15 @@ export const recruitmentFeed = {
       "url": "https://rsc.cpu.edu.cn/bc/cd/c4821a244941/page.htm",
       "published": "2026-10-14",
       "applicationStart": "",
-      "deadline": "2026-11-20",
+      "deadline": "",
       "windowVerified": false,
-      "applicationStatus": "closed",
-      "closed": true,
+      "applicationStatus": "unknown",
+      "closed": false,
       "checked": "2026-11-26",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-f1fbfde2e96a9689e20e",
@@ -667,7 +658,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-4661181fef558f5ebf65",
@@ -686,7 +678,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-2f21ca8a11ca44be611d",
@@ -705,7 +698,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-ed657723252233a7d87c",
@@ -721,11 +715,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-c5ded37c72660dcaf30e",
@@ -744,7 +737,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-952fa360f2187b7fefc7",
@@ -763,7 +757,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-b6ce1a6a786454df0f58",
@@ -782,7 +777,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-50d274cb20111cbbda07",
@@ -798,10 +794,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-chengdu-mountain",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-906b4dbf0024ee293cff",
@@ -812,12 +808,12 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2026年8月31日前取得相应学历学位。 4.应聘人员年龄不超过35周岁，…",
       "url": "https://rsc.njupt.edu.cn/2026/0811/c587a307025/page.htm",
       "published": "2026-08-11",
-      "applicationStart": "",
-      "deadline": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown",
-      "closed": false,
-      "checked": "2026-11-25",
+      "applicationStart": "2026-08-11",
+      "deadline": "2026-08-25",
+      "windowVerified": true,
+      "applicationStatus": "closed",
+      "closed": true,
+      "checked": "2026-11-27",
       "sourceId": "nj-njupt",
       "recordType": "notice",
       "positionTables": [
@@ -826,8 +822,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/6c/4c/ad466e61405a8c7fefc37d75b847/22d85dd5-d3f1-4d89-a520-61ca8e44234e.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-078d701632c6c580e2dd",
@@ -843,10 +838,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-palaeontology",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-9172f8d7531be825674d",
@@ -862,10 +857,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-palaeontology",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-95a42ddffb1263d2dd9a",
@@ -884,7 +879,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-f0561fb26bbb7e6eba51",
@@ -895,12 +891,12 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2026年8月31日前取得相应学历学位。 4.应聘人员年龄不超过30周岁，…",
       "url": "https://rsc.njupt.edu.cn/2026/0720/c587a306665/page.htm",
       "published": "2026-07-20",
-      "applicationStart": "",
-      "deadline": "",
-      "windowVerified": false,
-      "applicationStatus": "unknown",
-      "closed": false,
-      "checked": "2026-11-25",
+      "applicationStart": "2026-07-20",
+      "deadline": "2026-08-03",
+      "windowVerified": true,
+      "applicationStatus": "closed",
+      "closed": true,
+      "checked": "2026-11-27",
       "sourceId": "nj-njupt",
       "recordType": "notice",
       "positionTables": [
@@ -909,8 +905,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/ea/92/636570434fe6b97c3a0dbc086255/52912b0f-1029-4998-983b-b9d25c133816.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-ed93370bab035662f7f7",
@@ -926,10 +921,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-city-edu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-3929d20fe194848aa6d9",
@@ -968,7 +963,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-e8dc8c04f5d9381c442d",
@@ -984,7 +980,7 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-niit",
       "recordType": "notice",
       "positionTables": [
@@ -993,7 +989,7 @@ export const recruitmentFeed = {
           "url": "https://www.niit.edu.cn/_upload/article/files/b7/8c/7334cfea42adb0d3a1b3181738a9/98ebf3a8-5627-4323-8088-a0c24eb6fd28.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-4e7a75644ce9faf0133f",
@@ -1009,7 +1005,7 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "nj-njupt",
       "recordType": "notice",
       "positionTables": [
@@ -1018,8 +1014,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/8d/e5/ebf9a251402f96fed035a05c2867/ba8981d2-6cd7-422d-92ae-5216b7593ede.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-948fad67ac8990dda20a",
@@ -1074,11 +1069,11 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2026年8月31日前取得相应学历学位。 4.应聘人员年龄不超过30周岁，…",
       "url": "https://rsc.njupt.edu.cn/2026/0520/c587a302314/page.htm",
       "published": "2026-05-20",
-      "applicationStart": "2026-05-20",
-      "deadline": "2026-06-03",
-      "windowVerified": true,
-      "applicationStatus": "closed",
-      "closed": true,
+      "applicationStart": "",
+      "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
+      "closed": false,
       "checked": "2026-11-26",
       "sourceId": "nj-njupt",
       "recordType": "notice",
@@ -1088,7 +1083,8 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/dc/1d/ae1ceb28460d814809a3f26cf864/729d358a-a96b-4bc4-8601-5c5eeb665585.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-e8413267b03b34221ba8",
@@ -1107,7 +1103,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-562eb29eecd790c879b6",
@@ -1132,7 +1129,7 @@ export const recruitmentFeed = {
           "url": "https://jshrss.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=807f2a5c318144f686f141d9d51dcd81.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "lastAttempt": "2026-11-27T16:51:08+08:00",
       "availability": "unavailable"
     },
     {
@@ -1144,11 +1141,11 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2026年8月31日前取得相应学历学位。 4.应聘人员年龄不超过35周岁，…",
       "url": "https://rsc.njupt.edu.cn/2026/0414/c587a299968/page.htm",
       "published": "2026-04-14",
-      "applicationStart": "2026-04-14",
-      "deadline": "2026-04-28",
-      "windowVerified": true,
-      "applicationStatus": "closed",
-      "closed": true,
+      "applicationStart": "",
+      "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
+      "closed": false,
       "checked": "2026-11-26",
       "sourceId": "nj-njupt",
       "recordType": "notice",
@@ -1158,7 +1155,8 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/e5/12/258bbf7441a88e12a0767db5b0bc/5f479fc4-3a24-4155-b8b5-e9d30957a72a.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-5f467abbf5d909620e88",
@@ -1174,10 +1172,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-chengdu-mountain",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-21a73f8d6b13342872f0",
@@ -1253,10 +1251,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-njou",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-f91a4a962909cef6d41d",
@@ -1272,11 +1270,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-2e599617a3c9d97c1ebf",
@@ -1292,11 +1289,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-b62c2f0c44fd97938b57",
@@ -1312,10 +1308,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-chengdu-mountain",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-63ab5a21c0d8e4393d0e",
@@ -1331,10 +1327,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-chengdu-mountain",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-36904719b62f709283a3",
@@ -1353,7 +1349,8 @@ export const recruitmentFeed = {
       "checked": "2026-11-26",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-bb9794b252649cbd7213",
@@ -1364,11 +1361,11 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2025年12月31日前取得相应学历学位。 4.应聘人员年龄不超过35周岁…",
       "url": "https://rsc.njupt.edu.cn/2026/0123/c587a296751/page.htm",
       "published": "2026-01-23",
-      "applicationStart": "2026-01-23",
-      "deadline": "2026-02-28",
-      "windowVerified": true,
-      "applicationStatus": "closed",
-      "closed": true,
+      "applicationStart": "",
+      "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
+      "closed": false,
       "checked": "2026-11-26",
       "sourceId": "nj-njupt",
       "recordType": "notice",
@@ -1378,7 +1375,8 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/81/e0/c107257b44df845ede3bc8be504b/41a21108-97a4-4e32-9abd-e707b1ebee49.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-405e24bfd12770c3f4fd",
@@ -1389,11 +1387,11 @@ export const recruitmentFeed = {
       "requirement": "为更好地选拔优秀人才，充实人员队伍，优化人员结构，南京邮电大学现面向社会公开招聘工作人员，有关事项公告如下： 一、应聘基本条件 1.拥护党的路线、方针、政策，热爱祖国，热爱教育事业，遵纪守法，具有良好的思想政治素质。 2.有较强的事业心和责任感，有良好的职业道德，能够吃苦耐劳，具有团队合作精神，身心健康，工作细致，注重效率。 3.应聘人员须有国家认可的学历及相应学位，且与所需专业相对应；应届毕业生应于2025年8月31日前取得相应学历学位。 4.应聘人员年龄不超过35周岁，…",
       "url": "https://rsc.njupt.edu.cn/2026/0109/c587a296177/page.htm",
       "published": "2026-01-09",
-      "applicationStart": "2026-01-09",
-      "deadline": "2026-01-18",
-      "windowVerified": true,
-      "applicationStatus": "closed",
-      "closed": true,
+      "applicationStart": "",
+      "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
+      "closed": false,
       "checked": "2026-11-26",
       "sourceId": "nj-njupt",
       "recordType": "notice",
@@ -1403,7 +1401,8 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/26/cd/2e15455d4f0291e625a17fb03cf8/85cdea26-4d91-47aa-82bb-63045b8b2f63.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-26T16:40:56+08:00",
+      "availability": "stale"
     },
     {
       "id": "notice-bfe9bdffe8ab311e4f54",
@@ -1419,11 +1418,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-70610291c34fbc0156c0",
@@ -1439,10 +1437,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-njou",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-db33e920798c036610c0",
@@ -1478,11 +1476,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-ae4b66c954577bd55f95",
@@ -1518,10 +1515,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-nfls",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-2e456d4f9e9f23205b56",
@@ -1537,10 +1534,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-08247808844fba5914b2",
@@ -1556,11 +1553,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-7cde5c7b415d6f6c736d",
@@ -1616,10 +1612,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-dced1402d78998f83cf9",
@@ -1635,10 +1631,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-df008325923057fcd368",
@@ -1654,7 +1650,7 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-njupt",
       "recordType": "notice",
       "positionTables": [
@@ -1663,7 +1659,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/e0/85/9c5da35244c082d4b17bf9c84a74/af750642-5c16-4703-9b82-33819c4c8cfd.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-34b0f8a10357a94720aa",
@@ -1679,10 +1675,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-e7e0dad8a1fa56612b72",
@@ -1698,10 +1694,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-njou",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-7bfbc0b467b35ceb0185",
@@ -1717,10 +1713,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-cpu",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-61f41f4fc1a1e1d2be75",
@@ -1796,10 +1792,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-jmi",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-a85b6bc62f02888f4b77",
@@ -1815,7 +1811,7 @@ export const recruitmentFeed = {
       "windowVerified": true,
       "applicationStatus": "closed",
       "closed": true,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-njupt",
       "recordType": "notice",
       "positionTables": [
@@ -1824,7 +1820,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/43/1b/ac68f9fc4009927e2eb392d94920/812f9129-f89b-42fc-b16c-dc64d7ff0b83.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-0227c845e85147121031",
@@ -1840,10 +1836,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-nfls",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-251c5e6d0c10008a9d39",
@@ -1859,10 +1855,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-chengdu-mountain",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-5a0fc31f9bd26d017c7a",
@@ -1878,10 +1874,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-nfls",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-ae83367d4f7b80d5e4dd",
@@ -1897,10 +1893,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-a16d247f363cc66de71f",
@@ -1916,10 +1912,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-4d0ffa62bcefa0bf1cc7",
@@ -1935,10 +1931,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-46a11768090a3c12cbf8",
@@ -1954,7 +1950,7 @@ export const recruitmentFeed = {
       "windowVerified": true,
       "applicationStatus": "closed",
       "closed": true,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-njupt",
       "recordType": "notice",
       "positionTables": [
@@ -1963,7 +1959,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/99/70/a6c4b3994013ba09c401c4e8ccbf/82d92b04-efca-4717-8cc5-815c963bbd3c.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-fbfe296a6cd6a32d4ade",
@@ -1979,10 +1975,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-nfls",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-37bfef973b327673b397",
@@ -1998,10 +1994,10 @@ export const recruitmentFeed = {
       "windowVerified": true,
       "applicationStatus": "closed",
       "closed": true,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-no1-middle",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-a798edcdb7823c2867d9",
@@ -2017,7 +2013,7 @@ export const recruitmentFeed = {
       "windowVerified": true,
       "applicationStatus": "closed",
       "closed": true,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-njupt",
       "recordType": "notice",
       "positionTables": [
@@ -2026,7 +2022,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/64/22/7c6dabd54834b79dc774e48cca7d/603186a7-af73-4e01-affa-1901a472ea98.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-ce63a2095ab64fd15001",
@@ -2042,10 +2038,10 @@ export const recruitmentFeed = {
       "windowVerified": true,
       "applicationStatus": "closed",
       "closed": true,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-no1-middle",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-a4d86797f7e95a3eda0a",
@@ -2061,10 +2057,10 @@ export const recruitmentFeed = {
       "windowVerified": true,
       "applicationStatus": "closed",
       "closed": true,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-no1-middle",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-813b0f62a66728047863",
@@ -2080,10 +2076,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-5be2b19a670ff10a48b3",
@@ -2099,10 +2095,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-nfls",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-f20ea9e92e49ff01917f",
@@ -2118,10 +2114,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-51f69b502274cd53227f",
@@ -2137,10 +2133,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-bank-of-china",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-559fd768320dcba09b0e",
@@ -2156,7 +2152,7 @@ export const recruitmentFeed = {
       "windowVerified": true,
       "applicationStatus": "closed",
       "closed": true,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-njupt",
       "recordType": "notice",
       "positionTables": [
@@ -2165,7 +2161,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/d6/68/f9be46c749cd9abe1cd5cdcdac81/38e6e847-5a7e-4b0a-9a87-b7c220bf6dc5.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-5e5435c5dd0d3e831925",
@@ -2181,7 +2177,7 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-njupt",
       "recordType": "notice",
       "positionTables": [
@@ -2190,7 +2186,7 @@ export const recruitmentFeed = {
           "url": "https://rsc.njupt.edu.cn/_upload/article/files/e7/38/23cad9d84f208674a35ab04a7fca/04c8dc52-0925-4650-ada3-9fe2a3597463.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-4774b47b4a71be0f4086",
@@ -2206,10 +2202,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-67321fc20a1c619f2e7c",
@@ -2225,11 +2221,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-bdc5de6dfd030cd32851",
@@ -2246,7 +2241,7 @@ export const recruitmentFeed = {
       "conditionalVacancy": true,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-jmi",
       "recordType": "notice",
       "positionTables": [
@@ -2255,7 +2250,7 @@ export const recruitmentFeed = {
           "url": "https://www.jmi.edu.cn/_upload/article/files/33/30/c5b073c545f4a844724eebd36af7/9e68a1d0-32d7-4c68-b6cf-5d77131ca23f.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-46b6fe7435d68ed0d60e",
@@ -2271,10 +2266,10 @@ export const recruitmentFeed = {
       "windowVerified": true,
       "applicationStatus": "closed",
       "closed": true,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-no1-middle",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-29b804fd040c72637782",
@@ -2290,10 +2285,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-palaeontology",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-62d2aba2f4dec3d6e408",
@@ -2309,10 +2304,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-688a5020e895e349658e",
@@ -2328,11 +2323,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-7b463927b2a5eb9ebd3c",
@@ -2348,7 +2342,7 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-jmi",
       "recordType": "notice",
       "positionTables": [
@@ -2357,7 +2351,7 @@ export const recruitmentFeed = {
           "url": "https://www.jmi.edu.cn/_upload/article/files/3f/97/ca71683d4be9a3fdb7f01d924d2c/5a2bacba-e8de-4914-8a37-a5a38c2f1c63.xlsx"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-1deaa37979410cd1491c",
@@ -2373,11 +2367,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-25",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-25T16:54:54+08:00",
-      "availability": "stale"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-47b7795e45fbb074a4fc",
@@ -2393,10 +2386,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-7eb620f542101c8d35ea",
@@ -2412,10 +2405,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-0fd65162452d3428a1db",
@@ -2431,10 +2424,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-258e56bf0766c07307d4",
@@ -2450,10 +2443,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-7ae2a7b981c54bf16c3e",
@@ -2469,10 +2462,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-e480e64ed5d0109adc0b",
@@ -2488,10 +2481,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-palaeontology",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-50425689dd04abef4fc1",
@@ -2507,10 +2500,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-0dc293aef75c92a9e728",
@@ -2526,10 +2519,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-b48a4d3aecf467102b9b",
@@ -2545,10 +2538,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-niit",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-1c7cda3b781436e524de",
@@ -2564,10 +2557,29 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-nanjing-lakes",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
+    },
+    {
+      "id": "notice-3dad6277036440188251",
+      "title": "2026-11-27 成都市属国企最新招聘",
+      "employer": "",
+      "city": "",
+      "roleIds": [],
+      "requirement": ">> >> >>",
+      "url": "https://yan.sicau.edu.cn/info/1038/20789.htm",
+      "published": "",
+      "applicationStart": "",
+      "deadline": "",
+      "windowVerified": false,
+      "applicationStatus": "unknown",
+      "closed": false,
+      "checked": "2026-11-27",
+      "sourceId": "general-sicau-employment",
+      "recordType": "notice",
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-84a9f8f79420a8e4e99e",
@@ -2583,10 +2595,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-ac209b5706f86d9f7d77",
@@ -2602,10 +2614,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-f5ef9412819687cdb20f",
@@ -2621,10 +2633,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-66ec9cf67b5fbb86c000",
@@ -2640,7 +2652,7 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
       "positionTables": [
@@ -2649,7 +2661,7 @@ export const recruitmentFeed = {
           "url": "https://yan.sicau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1553038503&wbfileid=01E64E4C66987D1531B71C247B71B122"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-241c995b3b5cadd48338",
@@ -2665,10 +2677,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-965027fc510596fa125f",
@@ -2684,7 +2696,7 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
       "positionTables": [
@@ -2693,7 +2705,7 @@ export const recruitmentFeed = {
           "url": "https://yan.sicau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1553038503&wbfileid=88A55BB80AC8B02EA3CC10D669738A7E"
         }
       ],
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-631fc941c323486e70b3",
@@ -2709,10 +2721,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-8d42351ac74384d23a10",
@@ -2728,10 +2740,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "general-sicau-employment",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-9543f6695e5d3c2c2409",
@@ -2747,10 +2759,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-nis-2027-design",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-46f17f204c158d6c43fc",
@@ -2766,10 +2778,10 @@ export const recruitmentFeed = {
       "windowVerified": false,
       "applicationStatus": "unknown",
       "closed": false,
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "sourceId": "nj-hankai-page",
       "recordType": "notice",
-      "lastAttempt": "2026-11-26T16:40:56+08:00"
+      "lastAttempt": "2026-11-27T16:51:08+08:00"
     },
     {
       "id": "notice-62f657793d6c8a3c2a79",
